@@ -1,53 +1,71 @@
-* {
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-}
+@font-face {
+	font-family:'Rye';
+	src: url(fonts\Rye.ttf);
+	}
+
 body {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: 18px;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
-h2 {
-	margin-bottom: .5rem;
+header, footer {
+    background-color: rgba(14, 73, 136, 0.852);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #6f7364;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
 }
-main {
-	border: 1px solid #bbb;
-	padding: 1rem;
-	background-color: #bed;
-	box-shadow: 0 0 20px rgba(0,0,0,.1);
+header img {
+    width: 150px;
+    float: left;
+    margin: 30px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px #292a26;
 }
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+header h1 {
+    margin: 0 auto;
+    font-size: 50px;
+	padding-top: 80px;
+	color: white;
+}
+main h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+#limit {
+	border-top: 2px solid rgb(38, 38, 38);
+  height: 2px;
+  max-width: 1024px;
+  margin-left:5px;
+  text-align: left;
+}
+li{
+	padding-top: 5px;
+	font-family: 'Times New Roman', Times, serif;
+}
+main p{
+	font-style: italic;
+}
+ .copyright {
+    color: white;
+ }
 
-p {
-	margin: 1rem;
-	border:1px solid rgba(0,0,0,.1);
-	padding: .5rem;
-	background-color:#eee;
-	font-size: smaller;
+ h1 {
+    margin: 0 auto;
+    font-size: 20px;
 }
-
-fieldset {
-	margin: 1.5rem;
+.copyright {
+    text-align: center;
+	
 }
-span {
-	font-weight: 700;
-}
-#date1 {
-	color: forestgreen;
-}
-
-.highlight {
-	color: navy;
-}
-
-.message-box{
-	margin: 1rem;
-	border: 1px solid rgba(0,0,0,.1);
-	padding: .5rem;
-	background-color: #ffeebb;
-	color: #000;
+.modify{
+	text-align: center;
+	color: yellow;
 }

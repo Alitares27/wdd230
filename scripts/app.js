@@ -1,50 +1,10 @@
-// Select the HTML element to manipulate
-const date1 = document.querySelector("#date1");
-const date2 = document.querySelector("#date2");
-const message = document.querySelector("#emessage");
-
-// Try to complete the method with options
-try {
-	const options = {
-		weekday: "long",
-		day: "numeric",
-		month: "long",
-		year: "numeric"
-	};
-	date1.innerHTML = `Today is <span class="highlight">${new Date().toLocaleDateString("en-UK", options)}</span>!`;
-} catch (e) {
-	console.log("Error with code or your browser does not support Locale");
-}
-
-// Long hand method ... building day and month names from built-in date methods.
-const daynames = [
-	"Sunday",
-	"Monday",
-	"Tuesday",
-	"Wednesday",
-	"Thursday",
-	"Friday",
-	"Saturday"
-];
-const months = [
-	"January",
-	"February",
-	"March",
-	"April",
-	"May",
-	"June",
-	"July",
-	"August",
-	"September",
-	"October",
-	"November",
-	"December"
-];
-const d = new Date();
-const dayName = daynames[d.getDay()];
-const monthName = months[d.getMonth()];
-const year = d.getFullYear();
-const fulldate = `${monthName} ${d.getDate()}, ${year}`;
-document.querySelector("#date1").textContent = fulldate;
-const localdate = `Today is: ${dayName}, ${d.getDate()} ${monthName} ${year}`;
-document.querySelector("#date2").textContent = localdate;
+let date = new Date(document.lastModified);
+let shortDate = date.toLocaleDateString('en-US');
+let hour = date.getHours();
+let minutes = date.getMinutes();
+let seconds = date.getSeconds();
+let fullDate = `${shortDate} ${hour}:${minutes}:${seconds}`
+document.getElementById("modifiedDate").innerHTML = fullDate;
+let currentDate = new Date()
+let currentYear = currentDate.getFullYear()
+document.getElementById('year').innerHTML = currentYear;
