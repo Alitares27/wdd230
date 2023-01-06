@@ -39,7 +39,7 @@ main h1{
 	padding-left: 10px;
 	padding-top: 10px;
 }
-#limit {
+div {
 	border-top: 2px solid rgb(38, 38, 38);
   height: 2px;
   max-width: 1024px;
