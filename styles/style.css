@@ -27,7 +27,7 @@ header {
     display: grid;
     grid-template-columns: 20% 80%;
 }
-header h1 {
+header h2 {
     margin: 0 auto;
     font-size: 50px;
 	padding-top: 80px;
