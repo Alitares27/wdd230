@@ -46,3 +46,7 @@ p{
     font-family: 'Lora', serif;
     text-align: center;
 }
+a{
+    padding-bottom: 10px;
+    color: white;
+}
