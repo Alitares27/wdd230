@@ -1,11 +1,11 @@
-@media only screen and (min-width: 60em) {
-    header, footer {
-        border-radius: 10px;
-    }
-    main {
-     grid-template-columns: 1fr 1fr 1fr;
-    }
-    #part3 {
-      grid-column: span 1;
-    }
+@media screen and (min-width: 60em) {
+
+  #module {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
   }
+  #part3{
+    grid-column: span 1;
+    text-align: center;
+  }
+}
