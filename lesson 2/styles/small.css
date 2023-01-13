@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+header, footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: darkcyan;
+    border-radius: 0px;
+    box-shadow: 10px 10px 10px #6f7364;
+	font-size: 20px;
+    text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+main{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:10px;
+}
+h1,h2{
+    font-family: 'Cinzel', serif;
+}
+section h3{
+    font-size: 30px;
+}
+section h2{
+    font-size: 35px;
+}
+section h5{
+    font-size: 25px;
+}
+#part1 h3{
+    color:darkblue;
+}
+#part2 h3{
+    color:darkred;  
+}
+#part3 h3{
+    color:darkgreen; 
+}
+#part1 img, #part2 img, #part3 img{
+    width: 400px;
+}
+p{
+    font-family: 'Lora', serif;
+    text-align: center;
+}

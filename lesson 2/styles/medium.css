@@ -1,0 +1,12 @@
+@media only screen and (min-width: 32.5em) {
+    header, footer {
+        border-radius: 0px;
+    }
+    main {
+    text-align: center;
+     grid-template-columns: 1fr 1fr;
+    }
+    #part3 {
+      grid-column: span 2;
+    }
+  }

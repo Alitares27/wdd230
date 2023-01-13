@@ -1,7 +1,4 @@
-@font-face {
-	font-family:'Rye';
-	src: url(fonts\Rye.ttf);
-	}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap'); </style>
 
 body {
     max-width: 1024px;
@@ -33,12 +30,14 @@ header h2 {
 	padding-top: 80px;
 	color: white;
 }
+
 main h1{
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 30px;
 	padding-left: 10px;
 	padding-top: 10px;
 }
+
 div {
 	border-top: 2px solid rgb(38, 38, 38);
   height: 2px;
