@@ -43,7 +43,8 @@ nav a:hover {
     max-width: 1247px;
 }
 #header-slogan {
-    color: white;
+    -webkit-text-stroke: 1px darkgoldenrod;
+    color:white;
     font-size: 50px;
     padding-left: 35px;
     margin-top: -700px; 
