@@ -10,21 +10,11 @@ nav{
     font-family: 'Montserrat', sans-serif;
     background-color: firebrick;
 	text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     color: white;
     padding: 50px;
     display: flex;
 	flex-direction: column;
-}
-
-@media (min-width: 35em) {
-	nav {
-		flex-direction: row;
-	}
-    nav a{
-        padding: 0px 0px;
-        font-size: 10px;
-    }
 }
 nav a {
 	display: block;
@@ -33,13 +23,16 @@ nav a {
     margin-left: 200px;
 	padding: 15px;
 	text-decoration: none;
-	font-size: 25px;
+	
 }
 nav a:hover {
 	background-color: darkgoldenrod;
 	color: white;
 }
-
+#titles h1,div h4{
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
 #People1{
     border-color:firebrick;
     border-width: 5px;
@@ -52,6 +45,9 @@ nav a:hover {
     font-size: 25px;
     text-align: center;
 }
+#People1 img,#People2 img{
+    width: 400px;
+}
 #person1{
     text-align: center;
     border-color:firebrick;
@@ -60,21 +56,24 @@ nav a:hover {
 }
 #data{
     border-color:firebrick;
-    border-width: 5px;
     border-style: double;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr;
 }
 #data h4{
     font-family: 'Cinzel Decorative', cursive;
-    text-align: right;
+    text-align: center;
+    border-style: double;
+    border-color: firebrick;
+    padding-bottom: -10px;
 }
 #data p{
     font-family: 'Montserrat', sans-serif;
     margin-top: 32px;
     text-align: center;
+    margin-top: -20px;
+    padding-bottom: -20px;
 }
-
 #People2{
     border-color:firebrick;
     border-width: 5px;
@@ -92,9 +91,10 @@ nav a:hover {
     border-style: double;
     text-align: center;
 }
-
-
-
+li{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
 footer{
     justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
@@ -103,4 +103,15 @@ footer{
     padding: 15px 15px;
     color: white;
     font-size: 20px;
+}
+
+@media (min-width: 35em) {
+	nav {
+		flex-direction: row;
+	}
+}
+@media (min-width: 40em) {
+	nav {
+		flex-direction: row;
+	}
 }
