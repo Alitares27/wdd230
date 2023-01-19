@@ -1,0 +1,110 @@
+html{
+    background: white;
+}
+.logo{
+    width: 180px;
+}
+nav{
+    margin-top: -142px;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    background-color: firebrick;
+	text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 50px;
+    display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 35em) {
+	nav {
+		flex-direction: row;
+	}
+    nav a{
+        padding: 0px 0px;
+        font-size: 10px;
+    }
+}
+nav a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+    margin-left: 200px;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 25px;
+}
+nav a:hover {
+	background-color: darkgoldenrod;
+	color: white;
+}
+main{
+    text-align: center;
+}
+div{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.primary{
+    background-color: #990000;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+.secondary{
+    background-color: #cc9900;
+    color: #990000;
+    padding: 5px 5px 5px 5px;
+}
+.Accent1{
+    background-color: #ffffff;
+    border-style:solid ;
+    padding: 5px 5px 5px 5px;
+}
+.Accent2{
+    background-color: #000000;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+.heading{
+    font-size: 15px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.paragraph{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+div p{
+    font-size: 20px;
+}
+main h1,main h2{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+body h3, body h4{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.colored{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 15px 15px;
+    color: #cc9900;
+    background-color: #990000;
+}
+.example{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 15px 15px;
+}
+footer{
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    background-color: firebrick;
+	text-align: center;
+    padding: 15px 15px;
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,106 @@
+html{
+    background: white;
+}
+.logo{
+    width: 180px;
+}
+nav{
+    margin-top: -142px;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    background-color: firebrick;
+	text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 50px;
+    display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 35em) {
+	nav {
+		flex-direction: row;
+	}
+    nav a{
+        padding: 0px 0px;
+        font-size: 10px;
+    }
+}
+nav a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+    margin-left: 200px;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 25px;
+}
+nav a:hover {
+	background-color: darkgoldenrod;
+	color: white;
+}
+
+#People1{
+    border-color:firebrick;
+    border-width: 5px;
+    border-style: double;
+    justify-content: space-around;
+    margin: 15px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    font-size: 25px;
+    text-align: center;
+}
+#person1{
+    text-align: center;
+    border-color:firebrick;
+    border-width: 5px;
+    border-style: double;
+}
+#data{
+    border-color:firebrick;
+    border-width: 5px;
+    border-style: double;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#data h4{
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: right;
+}
+#data p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#People2{
+    border-color:firebrick;
+    border-width: 5px;
+    border-style: double;
+    justify-content: space-around;
+    margin: 15px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    font-size: 25px;
+}
+#person2{
+    border-color:firebrick;
+    border-width: 5px;
+    border-style: double;
+    text-align: center;
+}
+
+
+
+footer{
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    background-color: firebrick;
+	text-align: center;
+    padding: 15px 15px;
+    color: white;
+    font-size: 20px;
+}
