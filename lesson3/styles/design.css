@@ -1,110 +1,99 @@
-html{
-    background: white;
+header,footer{
+    width: 100%;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
 }
-.logo{
-    width: 180px;
+#logo{
+    width: 100px;
+}
+.nav-link{
+    display:inline-block ;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background: darkgoldenrod;
+    color: firebrick;
 }
 nav{
-    margin-top: -142px;
-    justify-content: space-around;
-    font-family: 'Montserrat', sans-serif;
-    background-color: firebrick;
-	text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 50px;
+    padding: 10px;
     display: flex;
-	flex-direction: column;
+    justify-content: space-around;
 }
-
-@media (min-width: 35em) {
-	nav {
-		flex-direction: row;
-	}
-    nav a{
-        padding: 0px 0px;
-        font-size: 10px;
-    }
-}
-nav a {
-	display: block;
-	color: #ffffff;
-	text-align: center;
-    margin-left: 200px;
-	padding: 15px;
-	text-decoration: none;
-	font-size: 25px;
-}
-nav a:hover {
-	background-color: darkgoldenrod;
-	color: white;
-}
-main{
-    text-align: center;
-}
-div{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-.primary{
-    background-color: #990000;
-    color: white;
-    padding: 5px 5px 5px 5px;
-}
-.secondary{
-    background-color: #cc9900;
-    color: #990000;
-    padding: 5px 5px 5px 5px;
-}
-.Accent1{
-    background-color: #ffffff;
-    border-style:solid ;
-    padding: 5px 5px 5px 5px;
-}
-.Accent2{
-    background-color: #000000;
-    color: white;
-    padding: 5px 5px 5px 5px;
-}
-.heading{
-    font-size: 15px;
+.container h1{
     font-family: 'Cinzel Decorative', cursive;
+    font-size: 45px;
 }
-.paragraph{
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-div p{
-    font-size: 20px;
-}
-main h1,main h2{
+.container h2{
     font-family: 'Cinzel Decorative', cursive;
     font-size: 30px;
+}
+body{
     text-align: center;
 }
-body h3, body h4{
-    font-family: 'Cinzel Decorative', cursive;
+table,th,td{
+    padding: 10px;
+    text-align: center;
     font-size: 20px;
-    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse ;
+    margin: 5% auto;
 }
-.colored{
+.primary{
+    background: #990000;
+    color: white;
+}
+.secondary{
+    background: #cc9900;
+    color: #990000;
+}
+.accent1{
+    background: #D3D3D3;
+}
+.accent2{
+    background: #000000;
+    color: #D3D3D3;
+}
+.typography h3, .typography h4{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 25px;
+}
+.heading{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 15px;
+}
+.paragraph{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    padding: 15px 15px;
-    color: #cc9900;
-    background-color: #990000;
 }
 .example{
+    width: 900px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    padding: 15px 15px;
+    margin: 0 auto;
 }
-footer{
-    justify-content: space-around;
+.colored{ 
+    width: 900px;
     font-family: 'Montserrat', sans-serif;
-    background-color: firebrick;
-	text-align: center;
-    padding: 15px 15px;
-    color: white;
     font-size: 20px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    background: #990000;
+    color: #cc9900;
+}
+@media(max-width: 400px){
+    
+    .colored, .example{
+        width: 300px;
+    }
+}
+@media(max-width: 600px){
+    
+    .colored, .example{
+        width: 500px;
+    }
 }
