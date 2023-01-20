@@ -1,8 +1,0 @@
-@media screen and (min-width: 22.5em) {
-  nav{
-    margin-top: -142px;
-    display: flex;
-    flex-direction: column;
-    padding: -50px;
-  }
-}

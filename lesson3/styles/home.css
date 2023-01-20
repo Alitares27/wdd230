@@ -1,76 +1,103 @@
-html{
-    background: white;
+header,footer{
+    width: 100%;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
 }
-.logo{
-    width: 180px;
+#logo{
+    width: 100px;
+}
+.nav-link{
+    display:inline-block ;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background: darkgoldenrod;
+    color: firebrick;
 }
 nav{
-    margin-top: -142px;
-    justify-content: space-around;
-    font-family: 'Montserrat', sans-serif;
-    background-color: firebrick;
-	text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 50px;
+    padding: 10px;
     display: flex;
-	flex-direction: column;
+    justify-content: space-around;
 }
-
-@media (min-width: 35em) {
-	nav {
-		flex-direction: row;
-	}
-    nav a{
-        padding: 0px 0px;
-        font-size: 10px;
-    }
+.container img{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
 }
-nav a {
-	display: block;
-	color: #ffffff;
-	text-align: center;
-    margin-left: 200px;
-	padding: 15px;
-	text-decoration: none;
-	font-size: 25px;
-}
-nav a:hover {
-	background-color: darkgoldenrod;
-	color: white;
-}
-#header-img{
-    max-width: 1247px;
-}
-#header-slogan {
-    -webkit-text-stroke: 1px darkgoldenrod;
-    color:white;
-    font-size: 50px;
-    padding-left: 35px;
-    margin-top: -700px; 
-    margin-bottom: 430px;
+.container h1{
     font-family: 'Cinzel Decorative', cursive;
+    color: firebrick;
+    font-size: 70px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: translate(-50%,-50);
+    -webkit-text-stroke: 1px darkgoldenrod;
 }
-#middle-box h2{
-    margin-left: 30px;
+.container h4{
+    font-family: 'Cinzel Decorative', cursive;
+    color: firebrick;
+    font-size: 55px;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    transform: translate(-50%,-50);
+    -webkit-text-stroke: 1px darkgoldenrod;
+    
+}
+.block2{
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+.block2 h2{
     font-family: 'Cinzel Decorative', cursive;
     font-size: 35px;
-    text-align: center;
 }
-#middle-box p{
-    max-width: 1200px;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+.block2 p{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
-footer{
-    justify-content: space-around;
-    font-family: 'Montserrat', sans-serif;
-    background-color: firebrick;
-	text-align: center;
-    padding: 15px 15px;
-    color: white;
-    font-size: 20px;
+@media (max-width:400px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-link{
+        margin: 10px 0px;
+    }
+    .people1,.people2{
+        max-width: 320px;
+    }
+    .container{
+        margin: 0 auto;
+        max-width: 380px;
+        display: none;
+    }
+    
 }
+@media (max-width:600px){
+    .container h1{
+        font-size: 30px;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        transform: translate(-50%,-50);
+        -webkit-text-stroke: 1px darkgoldenrod;
+    }
+    .container h4{
+        font-size: 20px;
+        position: absolute;
+        top:30%;
+        left: 5%;
+        transform: translate(-50%,-50);
+        -webkit-text-stroke: 1px darkgoldenrod;
+}
+}
+
+
