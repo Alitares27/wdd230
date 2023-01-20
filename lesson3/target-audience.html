@@ -12,49 +12,54 @@
 </head>
 <body>
 <header>
-    <img id="logo" href="index.html">
-    <img class="logo" src="images/LamBus_logo.png" alt="lambus_logo">
     <nav>
-      <a href="index.html">Home</a>
-      <a href="target-audience.html">Audience</a>
-      <a href="design.html">Design</a>
+      <img id="logo-index" href="index.html">
+      <img id="logo" class="logo" src="images/LamBus_logo.png" alt="lambus_logo">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="target-audience.html" class="nav-link">Audience</a>
+      <a href="design.html" class="nav-link">Design</a>
     </nav>
   </header>
-  <div id="titles">
-    <h1>PEOPLE</h1>
-  <main id="People1">   
-    <div id="data">
-        <h4>Name: </h4>
+  <section class="container flex">
+    <div class="column">
+      <h2>Person 1</h2>
+      <hr>
+      <h4>Name: </h4>
         <p>Andrew Lee</p>
-        <h4>Job Title:</h4>
+        <hr>
+      <h4>Job Title:</h4>
         <p>Driver</p>
-        <h4>Demography: </h4>
+        <hr>
+      <h4>Demography: </h4>
         <p>50 Years Old <br/>Low Income<br/>hardworking</p>
-        <h4>Quote: </h4>
+        <hr>
+      <h4>Quote: </h4>
         <p>No matter how high a mountain is,<br/>
           there is always a way to the top</p>
-    </div>
-    <div id="person1">
-        <h4>Photo: </h4> <img src="images/driver.jpeg" alt="driver">
-    </div>
-  </main>
-  <main id="People2">
-    <div id="data">
-      
-        <h4>Name: </h4>
+          <hr>
+          <h4>Photo:</h4> <img class="drive-img" src="images/driver.jpeg" alt="driver">
+    </div>    
+    <div class="column">
+      <h2>Person 2</h2>
+      <hr>
+      <h4>Name: </h4>
         <p>Kate Logan</p>
-        <h4>Job Title: </h4>
-        <p>Accounting </p>
-        <h4>Demography: </h4>
-        <p>45 Years Old</p>
-        <h4>Quote: </h4>
-        <p>Success is not in always winning <br/>but in never getting discouraged</p>
+        <hr>
+      <h4>Job Title:</h4>
+        <p>Accounting</p>
+        <hr>
+      <h4>Demography: </h4>
+        <p>40 Years Old <br/>High Income<br/>
+          <hr>
+      <h4>Quote: </h4>
+      <p>Success is not in always winning <br/>
+        but in never getting discouraged</p>
+        <hr>
+          <h4>Photo: </h4> <img class="account-img" src="images/accountant.jpg" alt="accountant">
     </div>
-    <div id="person2">
-        <h4>Photo: </h4> <img src="images/accountant.jpg" alt="accountant">
-    </div>
-  </main>
-  <h1>SCENARIOS</h1>
+  </section>
+ 
+  <h1 class="scenario">SCENARIOS</h1>
   <ul>
     <li>Andrew is a taxi driver who has a hard time getting customers without avoiding spending a lot of fuel, he is constantly looking for options to use fuel more efficiently.</li><br>
     <li>Kate is an accountant who is often busy, she arrives at work early in the morning and sometimes leaves late at night, she has trouble finding a reliable taxi service that won't waste her time, many taxi drivers try to take advantage of night hours to charging you too high a fee, you have tried various apps and local taxi services</li><br>

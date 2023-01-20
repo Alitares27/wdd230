@@ -1,112 +1,100 @@
-html{
-    background: white;
+header,footer{
+    width: 100%;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
 }
-.logo{
-    width: 180px;
+#logo{
+    width: 100px;
+}
+.nav-link{
+    display:inline-block ;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background: darkgoldenrod;
+    color: firebrick;
 }
 nav{
-    margin-top: -142px;
-    justify-content: space-around;
-    font-family: 'Montserrat', sans-serif;
-    background-color: firebrick;
-	text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 50px;
+    padding: 10px;
     display: flex;
-	flex-direction: column;
-}
-nav a {
-	display: block;
-	color: #ffffff;
-	text-align: center;
-    margin-left: 200px;
-	padding: 15px;
-	text-decoration: none;
-	
-}
-nav a:hover {
-	background-color: darkgoldenrod;
-	color: white;
-}
-#titles h1,div h4{
-    text-align: center;
-    font-family: 'Cinzel Decorative', cursive;
-}
-#People1{
-    border-color:firebrick;
-    border-width: 5px;
-    border-style: double;
     justify-content: space-around;
-    margin: 15px auto;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    font-size: 25px;
+}
+@media (max-width:400px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-link{
+        margin: 10px 0px;
+    }
+    .people1,.people2{
+        max-width: 320px;
+    }
+    .container{
+        margin: 0 auto;
+        max-width: 380px;
+        display: none;
+    }
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
     text-align: center;
-}
-#People1 img,#People2 img{
-    width: 400px;
-}
-#person1{
-    text-align: center;
-    border-color:firebrick;
-    border-width: 5px;
-    border-style: double;
-}
-#data{
-    border-color:firebrick;
-    border-style: double;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-#data h4{
-    font-family: 'Cinzel Decorative', cursive;
-    text-align: center;
-    border-style: double;
-    border-color: firebrick;
-    padding-bottom: -10px;
-}
-#data p{
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 32px;
-    text-align: center;
-    margin-top: -20px;
-    padding-bottom: -20px;
-}
-#People2{
-    border-color:firebrick;
-    border-width: 5px;
-    border-style: double;
-    justify-content: space-around;
-    margin: 15px auto;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    font-size: 25px;
-}
-#person2{
-    border-color:firebrick;
-    border-width: 5px;
-    border-style: double;
-    text-align: center;
-}
-li{
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-footer{
-    justify-content: space-around;
-    font-family: 'Montserrat', sans-serif;
-    background-color: firebrick;
-	text-align: center;
-    padding: 15px 15px;
-    color: white;
-    font-size: 20px;
+    display: flex;
 }
 
-@media (min-width: 35em) {
-	nav {
-		flex-direction: row;
-	}
+.container h4{
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.container p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.column{
+    border:1px solid #000000 ;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(169, 169, 169, 0.5);
+    width: 40%;
+    box-sizing:border-box ;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.scenario{
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+}
+ul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+@media(max-width: 1400px){
+    .column{
+        width:45% ;
+        margin-bottom: 20px;
+    }
+    ul{
+        width: 900px;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 400px){
+    .column{
+        width:100% ;
+        margin-bottom: 20px;
+    }
+    .drive-img,.account-img{
+        width: 300px;
+    }
+    ul{
+        width: 300px;
+    }
 }
