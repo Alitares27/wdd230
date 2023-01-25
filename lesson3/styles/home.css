@@ -78,7 +78,7 @@ nav{
 }
 @media (min-width:551px){
     .container h1{
-        font-size: 45px;
+        font-size: 35px;
         position: absolute;
         top: 20%;
         left: 5%;
@@ -86,8 +86,9 @@ nav{
         -webkit-text-stroke: 1px darkgoldenrod;
     }
     .container h4{
+        font-size: 25px;
         position: absolute;
-        top:30%;
+        top:28%;
         left: 5%;
         transform: translate(-50%,-50);
         -webkit-text-stroke: 1px darkgoldenrod;
@@ -95,7 +96,7 @@ nav{
 }
 @media (max-width:750px){
     .container h1{
-        font-size: 45px;
+        font-size: 35px;
         position: absolute;
         top: 20%;
         left: 5%;
@@ -103,8 +104,9 @@ nav{
         -webkit-text-stroke: 1px darkgoldenrod;
     }
     .container h4{
+        font-size: 25px;
         position: absolute;
-        top:25%;
+        top:28%;
         left: 5%;
         transform: translate(-50%,-50);
         -webkit-text-stroke: 1px darkgoldenrod;
@@ -112,7 +114,7 @@ nav{
 }
 @media (min-width:751px){
     .container h1{
-        font-size: 70px;
+        font-size: 60px;
         position: absolute;
         top: 20%;
         left: 5%;
