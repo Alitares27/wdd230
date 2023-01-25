@@ -71,9 +71,7 @@ nav{
     }
     
     .container{
-        
         margin: 0 auto;
-        
         display: none;
     }
     
@@ -99,14 +97,14 @@ nav{
     .container h1{
         font-size: 45px;
         position: absolute;
-        top: 10%;
+        top: 20%;
         left: 5%;
         transform: translate(-50%,-50);
         -webkit-text-stroke: 1px darkgoldenrod;
     }
     .container h4{
         position: absolute;
-        top:15%;
+        top:25%;
         left: 5%;
         transform: translate(-50%,-50);
         -webkit-text-stroke: 1px darkgoldenrod;

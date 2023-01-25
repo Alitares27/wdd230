@@ -24,29 +24,12 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-@media (max-width:400px){
-    nav{
-        flex-direction: column;
-    }
-    .nav-link{
-        margin: 10px 0px;
-    }
-    .people1,.people2{
-        max-width: 320px;
-    }
-    .container{
-        margin: 0 auto;
-        max-width: 380px;
-        display: none;
-    }
-}
 .container{
     margin: 0 auto;
     width: 100%;
     text-align: center;
     display: flex;
 }
-
 .container h4{
     font-size: 30px;
     font-family: 'Cinzel Decorative', cursive;
@@ -68,9 +51,15 @@ nav{
     display: flex;
     flex-wrap: wrap;
 }
-.scenario{
+.scenario,.audience{
     font-family: 'Cinzel Decorative', cursive;
     text-align: center;
+}
+.audience-detail{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px ;
 }
 ul{
     font-family: 'Montserrat', sans-serif;
@@ -79,11 +68,27 @@ ul{
 li{
     padding: 10px;
 }
+@media (max-width:400px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-link{
+        margin: 10px 0px;
+    }
+    .people1,.people2{
+        max-width: 320px;
+    }
+    .container{
+        margin: 0 auto;
+        max-width: 380px;
+        display: none;
+    }
+}
 @media (max-width:550px){
     nav{
         display: flex;
         flex-direction: column;
-        
     }
     .column{
         width:auto ;
@@ -97,7 +102,6 @@ li{
         width: 100px;
     }
 }
-
 @media(min-width: 551px){
     .column{
         width:45% ;
