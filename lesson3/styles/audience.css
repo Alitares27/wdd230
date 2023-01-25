@@ -79,25 +79,35 @@ ul{
 li{
     padding: 10px;
 }
-@media(max-width: 1400px){
+@media (max-width:550px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .column{
+        width:auto ;
+        margin-bottom: 20px;
+    }
+    .scenario{
+        width: auto;
+        margin: 0 auto;
+    }
+    .account-img, .drive-img{
+        width: 100px;
+    }
+}
+
+@media(min-width: 551px){
     .column{
         width:45% ;
         margin-bottom: 20px;
     }
     ul{
-        width: 900px;
+        width: auto;
         margin: 0 auto;
     }
-}
-@media(max-width: 400px){
-    .column{
-        width:100% ;
-        margin-bottom: 20px;
-    }
-    .drive-img,.account-img{
-        width: 300px;
-    }
-    ul{
-        width: 300px;
+    .account-img, .drive-img{
+        width: 200px;
     }
 }

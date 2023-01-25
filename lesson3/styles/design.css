@@ -42,6 +42,8 @@ table,th,td{
     border: 1px solid black;
     border-collapse:collapse ;
     margin: 5% auto;
+    width: auto;
+    
 }
 .primary{
     background: #990000;
@@ -52,11 +54,11 @@ table,th,td{
     color: #990000;
 }
 .accent1{
-    background: #D3D3D3;
+    background: #ffffff;
 }
 .accent2{
     background: #000000;
-    color: #D3D3D3;
+    color: #ffffff;
 }
 .typography h3, .typography h4{
     font-family: 'Cinzel Decorative', cursive;
@@ -71,13 +73,14 @@ table,th,td{
     font-size: 20px;
 }
 .example{
-    width: 900px;
+    width: auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    padding: 20px 20px;
     margin: 0 auto;
 }
 .colored{ 
-    width: 900px;
+    width: auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding: 20px 20px;
@@ -85,15 +88,15 @@ table,th,td{
     background: #990000;
     color: #cc9900;
 }
-@media(max-width: 400px){
-    
-    .colored, .example{
-        width: 300px;
+
+@media (max-width:550px){
+    nav{
+        display: flex;
+        flex-direction: column;
     }
-}
-@media(max-width: 600px){
-    
-    .colored, .example{
-        width: 500px;
+    table,th,td{
+        display: grid;
+        justify-content: center;
     }
+    
 }

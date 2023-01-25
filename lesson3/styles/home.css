@@ -33,7 +33,7 @@ nav{
 .container h1{
     font-family: 'Cinzel Decorative', cursive;
     color: firebrick;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     top: 30%;
     left: 5%;
@@ -43,13 +43,12 @@ nav{
 .container h4{
     font-family: 'Cinzel Decorative', cursive;
     color: firebrick;
-    font-size: 55px;
+    font-size: 45px;
     position: absolute;
     top: 45%;
     left: 5%;
     transform: translate(-50%,-50);
     -webkit-text-stroke: 1px darkgoldenrod;
-    
 }
 .block2{
     max-width: 900px;
@@ -64,26 +63,24 @@ nav{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
-@media (max-width:400px){
+
+@media (max-width:550px){
     nav{
+        display: flex;
         flex-direction: column;
     }
-    .nav-link{
-        margin: 10px 0px;
-    }
-    .people1,.people2{
-        max-width: 320px;
-    }
+    
     .container{
+        
         margin: 0 auto;
-        max-width: 380px;
+        
         display: none;
     }
     
 }
-@media (max-width:600px){
+@media (min-width:551px){
     .container h1{
-        font-size: 30px;
+        font-size: 45px;
         position: absolute;
         top: 20%;
         left: 5%;
@@ -91,7 +88,6 @@ nav{
         -webkit-text-stroke: 1px darkgoldenrod;
     }
     .container h4{
-        font-size: 20px;
         position: absolute;
         top:30%;
         left: 5%;
@@ -99,5 +95,39 @@ nav{
         -webkit-text-stroke: 1px darkgoldenrod;
 }
 }
-
+@media (max-width:750px){
+    .container h1{
+        font-size: 45px;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        transform: translate(-50%,-50);
+        -webkit-text-stroke: 1px darkgoldenrod;
+    }
+    .container h4{
+        position: absolute;
+        top:15%;
+        left: 5%;
+        transform: translate(-50%,-50);
+        -webkit-text-stroke: 1px darkgoldenrod;
+}
+}
+@media (min-width:751px){
+    .container h1{
+        font-size: 70px;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        transform: translate(-50%,-50);
+        -webkit-text-stroke: 1px darkgoldenrod;
+    }
+    .container h4{
+        font-size: 60px;
+        position: absolute;
+        top:30%;
+        left: 5%;
+        transform: translate(-50%,-50);
+        -webkit-text-stroke: 1px darkgoldenrod;
+}
+}
 
