@@ -5,26 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
 <header>
-    <nav>
-<button>&#9776;</button>
-    <ul>
-        <li><a href="#">Home</a>
-        <li><a href="#">About Us</a>  
-        <li><a href="#">Location</a>
-        <li><a href="#">Contact</a>
-        </li>
+    <div class="logo-box">
+        <img class="worldlogo" src="images/worldLogo.png" alt="worldLogo">
+        <h1>ConnectedLoop</h1>
+        <p>Chamber of Commerce</p>
+    </div>
+    <div class="icon-box">
+        <img class="fb" src="images/fb.png" alt="fbLogo">
+        <img class="lin" src="images/lin.png" alt="linkedinLogo">
+    </div>
+    <nav class="menu">
+    <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+    <ul id="primaryNav">
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
     </ul>
 </nav>
-    <h2  id="date"></h2>
-
+<h2 class="time" id="date-box"></h2>
 </header>
 
-    
+<section>
+    <main class="container">
+        <div class="hero-box">
+            <p>Hero with site name and call to action</p>
+        </div>
+        <div class="event-weather">
+            <div class="event-box">
+                <p>Event</p>
+            </div>
+            <div class="weather-box">
+                <p>Weather</p>
+            </div>
+        </div>
+        <div class="newRelease-box">
+            <p>New Release</p>
+        </div>
+        <div class="spotlight">
+            <div class="spotlight1-box">
+                <p>Spotlight 1</p>
+            </div>
+            
+            <div class="spotlight2-box">
+                <p>Spotlight 2</p>
+            </div>
+        </div>
+        <div class="join-box">
+            <p>Join</p>
+        </div>
+        
+        <div class="spotlight3-box">
+            <p>Spotlight 3</p>
+        </div>
+    </main>
+</section>
+    <footer>
+        <section class="top-footer">
+            <div class="detail0">
+                <img src="images/worldLogo.png" alt="worldLogo">
+            </div>
+            <div class="detail1">
+                <h2>ConnectedLoop Chamber of Commerce</h2>
+                <p>10 Rue De Le Paix</p>
+                <p>ConnectedLoop, Mali 999</p>
+            </div>
+            <div class="detail2">
+                <p> info@timbuktucc.org </p>
+                <p> +(223) 2070-2300 </p>
+                <p> &#xf276; Location Map</p>
+            </div>
+        </section> 
+        <div class="bottom-footer">
+            <hr>
+            <div class="author">
+            <p class="copyright">&copy; <span id="year"></span>
+            <p class="business">ConnectedLoop Chamber |</p>
+            <p class="name">Aldair Payehuanca |</p>
+            <p class="project">WDD 230 Project |</p>
+        </div>
+        <p class="modify">Last Modification: <span id="modifiedDate"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
 </body>
-<body>
-    
-</body>
+
 </html>

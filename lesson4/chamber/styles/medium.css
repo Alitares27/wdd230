@@ -1,0 +1,109 @@
+@media only screen and (min-width:35rem){
+    header{
+        background-color:#4f4f4f;
+        display: grid;
+        grid-template-columns: 50% 30% 20%;
+    }
+    .logo-box{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        color: white;   
+    }
+    .logo-box h1{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        left: 20%;
+        top: 1%;
+    }
+    .logo-box p{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        left: 20%;
+        top: 5%;
+    }
+    .menu{
+        text-align: right;
+    }
+    nav button{
+        margin: .2rem 2vw;
+        background: transparent;
+        border: 2px solid rgba(220, 220, 220, 0.3);
+        font-size: 2rem;
+        color: white;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    nav{ 
+        background-color: #4f4f4f;
+        font-weight: bold;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin-left: 0;
+    }
+    nav ul li a{
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        background-color:dodgerblue;
+    }
+    nav ul {
+        display: none;
+    }
+    nav ul.open{
+        display: block;
+    }
+    #hamburgerBtn span:nth-child(1){display:block}
+    #hamburgerBtn span:nth-child(2){display: none;}
+    #hamburgerBtn.open span:nth-child(1){display:none}
+    #hamburgerBtn.open span:nth-child(2){display: block;}
+    .worldlogo{
+        width: 100px;
+        padding: 10px 20px;
+    }
+    .fb,.lin{
+        width: 55px;
+        float: right;
+    }
+.spotlight{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+.event-weather{
+    
+    display: grid;
+    grid-template-columns: 60% 40%;
+   
+    border-collapse:collapse 
+}
+
+.top-footer{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+.top-footer img{
+    width: 160px;
+}
+.author{
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 10% 30% 30% 30%;
+    justify-content: center;
+}
+.name{
+    font-weight: bold;
+}
+.modify{
+    margin: 0 auto;
+}
+}

@@ -1,0 +1,113 @@
+header{
+    background-color:#4f4f4f;
+    display: grid;
+    grid-template-columns: 65% 15% 20%;
+}
+.logo-box{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    color: white;   
+}
+.worldlogo{
+    width: 60px;
+    padding: 8px 8px;
+}
+.logo-box h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 22%;
+    top: 1%;
+}
+.logo-box p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 22%;
+    top: 5%;
+}
+.icon-box{
+    padding-top: 20px;
+}
+.fb,.lin{
+    width: 25px;
+    float: right;
+}
+.logo-box h1,.logo-box p{
+    margin: 0 2evw;
+}
+.menu{
+    text-align: right;
+}
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: 2px solid rgba(220, 220, 220, 0.3);
+    font-size: 2rem;
+    color: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav{ 
+    background-color: #4f4f4f;
+    width: auto;
+    font-weight: bold;
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    background-color:dodgerblue;
+}
+nav ul {
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+#hamburgerBtn span:nth-child(1){display:block}
+#hamburgerBtn span:nth-child(2){display: none;}
+#hamburgerBtn.open span:nth-child(1){display:none}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+#date-box{
+    background-color:#6c6c6c;
+    display: grid;
+    color: white;
+    width: 100%;
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 4;
+    padding: 0% auto;
+}
+.hero-box,.event-box,.weather-box,.newRelease-box,.join-box,.spotlight3-box{
+    border-style: groove;
+    padding: 50px 10px;
+}
+.spotlight,.spotlight1-box,.spotlight2-box{
+    border-style: groove;
+    padding: 50px 10px;
+    border-collapse:collapse ; 
+}
+footer{
+    background-color: #4f4f4f;
+    color: white;
+    text-align: center;
+    display: grid;
+}
+.top-footer img{
+    width: 100px;
+    padding: 5px 5px
+}
