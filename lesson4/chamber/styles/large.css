@@ -1,5 +1,45 @@
 @media only screen and (min-width:64rem){
+    header{
+        background-color:#4f4f4f;
+        display: grid;
+        grid-template-columns: 30% 20% 50%;
+    }
+    .logo-box{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        color: white;   
+    }
+    .logo-box h1{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;
+        left: 15%;
+        top: 1%;
+    }
+    .logo-box p{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+        left: 15%;
+        top: 5%;
+    }
+    .menu{
+        display: grid;
+    }
+
+    nav ul {
+        display: grid;
+    }
+    nav button{
+        display: none;
+    }
     nav ul li a{
+        display: grid;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: white;
         padding: .5rem 1rem;
     }
 }

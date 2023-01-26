@@ -37,8 +37,8 @@ nav{
     position: absolute;
     top: 30%;
     left: 5%;
-    transform: translate(-50%,-50);
-    -webkit-text-stroke: 1px darkgoldenrod;
+    
+    -webkit-text-stroke: 1px #fff;
 }
 .container h4{
     font-family: 'Cinzel Decorative', cursive;
@@ -47,8 +47,8 @@ nav{
     position: absolute;
     top: 45%;
     left: 5%;
-    transform: translate(-50%,-50);
-    -webkit-text-stroke: 1px darkgoldenrod;
+    
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 .block2{
     max-width: 900px;
@@ -69,12 +69,10 @@ nav{
         display: flex;
         flex-direction: column;
     }
-    
     .container{
         margin: 0 auto;
         display: none;
     }
-    
 }
 @media (min-width:551px){
     .container h1{
@@ -82,16 +80,14 @@ nav{
         position: absolute;
         top: 20%;
         left: 5%;
-        transform: translate(-50%,-50);
-        -webkit-text-stroke: 1px darkgoldenrod;
+        -webkit-text-stroke: 2px black;
     }
     .container h4{
         font-size: 25px;
         position: absolute;
         top:28%;
         left: 5%;
-        transform: translate(-50%,-50);
-        -webkit-text-stroke: 1px darkgoldenrod;
+        -webkit-text-stroke: 2px black;
 }
 }
 @media (max-width:750px){
@@ -100,16 +96,14 @@ nav{
         position: absolute;
         top: 20%;
         left: 5%;
-        transform: translate(-50%,-50);
-        -webkit-text-stroke: 1px darkgoldenrod;
+        -webkit-text-stroke: 2px black;
     }
     .container h4{
         font-size: 25px;
         position: absolute;
         top:28%;
         left: 5%;
-        transform: translate(-50%,-50);
-        -webkit-text-stroke: 1px darkgoldenrod;
+        -webkit-text-stroke: 2px black;
 }
 }
 @media (min-width:751px){
@@ -118,16 +112,14 @@ nav{
         position: absolute;
         top: 20%;
         left: 5%;
-        transform: translate(-50%,-50);
-        -webkit-text-stroke: 1px darkgoldenrod;
+        -webkit-text-stroke: 2px black;
     }
     .container h4{
         font-size: 60px;
         position: absolute;
         top:30%;
         left: 5%;
-        transform: translate(-50%,-50);
-        -webkit-text-stroke: 1px darkgoldenrod;
+        -webkit-text-stroke: 2px black;
 }
 }
 

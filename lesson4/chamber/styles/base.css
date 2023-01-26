@@ -92,9 +92,12 @@ nav ul.open{
     grid-row: 4;
     padding: 0% auto;
 }
-.hero-box,.event-box,.weather-box,.newRelease-box,.join-box,.spotlight3-box{
+.hero-box,.event-box,.weather-box,.newRelease-box{
     border-style: groove;
     padding: 50px 10px;
+}
+.join-box,.spotlight3-box{
+    display: none;
 }
 .spotlight,.spotlight1-box,.spotlight2-box{
     border-style: groove;
