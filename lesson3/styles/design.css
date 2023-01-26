@@ -51,7 +51,7 @@ table,th,td{
 }
 .secondary{
     background: #cc9900;
-    color: #990000;
+    color: white;
 }
 .accent1{
     background: #ffffff;
@@ -86,7 +86,7 @@ table,th,td{
     padding: 20px 20px;
     margin: 0 auto;
     background: #990000;
-    color: #cc9900;
+    color: white;
 }
 
 @media (max-width:550px){
