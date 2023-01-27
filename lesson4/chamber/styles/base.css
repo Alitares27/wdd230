@@ -13,7 +13,7 @@ header{
     padding: 8px 8px;
 }
 .logo-box h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 21px;
     font-weight: bold;
     position: absolute;
@@ -21,12 +21,12 @@ header{
     top: 1%;
 }
 .logo-box p{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: bold;
     position: absolute;
     left: 22%;
-    top: 4%;
+    top: 5%;
 }
 .icon-box{
     padding-top: 20px;

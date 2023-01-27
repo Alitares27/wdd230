@@ -10,7 +10,7 @@
         color: white;   
     }
     .logo-box h1{
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
         font-size: 27px;
         font-weight: bold;
         position: absolute;
@@ -18,7 +18,7 @@
         top: 1%;
     }
     .logo-box p{
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
         font-size: 23px;
         font-weight: bold;
         position: absolute;
