@@ -11,18 +11,18 @@
     }
     .logo-box h1{
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 35px;
+        font-size: 27px;
         font-weight: bold;
         position: absolute;
-        left: 20%;
+        left: 25%;
         top: 1%;
     }
     .logo-box p{
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 25px;
+        font-size: 23px;
         font-weight: bold;
         position: absolute;
-        left: 20%;
+        left: 23%;
         top: 5%;
     }
     .menu{
@@ -71,8 +71,9 @@
         padding: 10px 20px;
     }
     .fb,.lin{
-        width: 55px;
+        width: 45px;
         float: right;
+
     }
     .spotlight{
     display: grid;
