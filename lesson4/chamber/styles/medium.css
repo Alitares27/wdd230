@@ -98,7 +98,13 @@
     .event-weather{
     display: grid;
     grid-template-columns: 60% 40%;
-    border-collapse:collapse 
+    
+}
+.spotlight{
+    grid-row-start: 2;
+}
+.event-box,.weather-box{
+    grid-row-start: 5;
 }
     .join-box{
         display: grid;

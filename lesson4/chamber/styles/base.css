@@ -96,16 +96,19 @@ nav ul.open{
     grid-row: 4;
     padding: 12px 0;
 }
+.container{
+    margin-bottom: 10px;
+    display: grid;
+}
 .hero-box,.event-box,.weather-box,.join-box,.newRelease-box{
     border-style: groove;
     padding: 50px 10px;
     margin-top: 10px;
 }
-.container{
-    display: grid;
-}
+
 .newRelease-box{
     grid-area: 2/4;
+    grid-row-start: 5;
 }
 .join-box,.spotlight3-box{
     display: none;
@@ -115,6 +118,12 @@ nav ul.open{
     padding: 50px 10px;
     margin-top: 10px;
 }
+.spotlight{
+    margin-top: 10px;
+    border-style: groove;
+    padding: 10px;
+}
+
 footer{
     background-color: #4f4f4f;
     color: white;
