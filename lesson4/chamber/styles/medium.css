@@ -66,6 +66,22 @@
     #hamburgerBtn span:nth-child(2){display: none;}
     #hamburgerBtn.open span:nth-child(1){display:none}
     #hamburgerBtn.open span:nth-child(2){display: block;}
+    
+    #date-box{
+        background-color:#6c6c6c;
+        display: grid;
+        color: white;
+        position: relative;
+        left: 10px;
+        font-size: 18px;
+        width: 97%;
+        justify-content: center;
+        text-align: center;
+        grid-column: 1 / 4;
+        grid-row: 4;
+        padding: 12px 0;
+    }
+    
     .worldlogo{
         width: 100px;
         padding: 10px 20px;
@@ -73,40 +89,41 @@
     .fb,.lin{
         width: 45px;
         float: right;
-
     }
+
     .spotlight{
     display: grid;
-    grid-template-columns: 50% 50%; 
+    grid-template-columns: auto auto; 
 }
     .event-weather{
     display: grid;
     grid-template-columns: 60% 40%;
     border-collapse:collapse 
 }
-.join-box{
-    display: grid;
-    border-style: groove;
-    padding: 50px 10px;
+    .join-box{
+        display: grid;
+        grid-column: 1 / span 2;
+        border-style: groove;
+        padding: 50px 10px;
 }
-.top-footer{
-    display: grid;
-    grid-template-columns: 40% 30% 30%;
+    .top-footer{
+        display: grid;
+        grid-template-columns: 40% 30% 30%;
 }
-.top-footer img{
-    width: 160px;
+    .top-footer img{
+        width: 160px;
 }
-.author{
-    max-width: 600px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 10% 30% 30% 30%;
-    justify-content:center;
+    .author{
+        max-width: 600px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 10% 30% 30% 30%;
+        justify-content:center;
 }
-.name{
-    font-weight: bold;
+    .name{
+        font-weight: bold;
 }
-.modify{
-    margin: 0 auto;
+    .modify{
+        margin: 0 auto;
 }
 }

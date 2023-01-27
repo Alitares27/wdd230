@@ -86,23 +86,34 @@ nav ul.open{
     background-color:#6c6c6c;
     display: grid;
     color: white;
-    width: 100%;
+    position: relative;
+    left: 5px;
+    font-size: 15px;
+    width: 97%;
+    justify-content: center;
     text-align: center;
     grid-column: 1 / 4;
     grid-row: 4;
-    padding: 0% auto;
+    padding: 12px 0;
 }
-.hero-box,.event-box,.weather-box,.newRelease-box{
+.hero-box,.event-box,.weather-box,.join-box,.newRelease-box{
     border-style: groove;
     padding: 50px 10px;
+    margin-top: 10px;
+}
+.container{
+    display: grid;
+}
+.newRelease-box{
+    grid-area: 2/4;
 }
 .join-box,.spotlight3-box{
     display: none;
 }
-.spotlight,.spotlight1-box,.spotlight2-box{
+.spotlight1-box,.spotlight2-box,.spotlight3-box{
     border-style: groove;
     padding: 50px 10px;
-    border-collapse:collapse ; 
+    margin-top: 10px;
 }
 footer{
     background-color: #4f4f4f;
