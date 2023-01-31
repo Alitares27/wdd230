@@ -68,7 +68,6 @@
         grid-column-gap:10px;
     }
     .hero-release{
-        
         grid-area:1/2 ;
     }
     .newRelease-box{
@@ -80,7 +79,7 @@
         grid-template-columns: 30%;
     }
     .hero-box{
-        height: 43.2%;
+        height: 30%;
     }
     .spotlight{
         display: block;
