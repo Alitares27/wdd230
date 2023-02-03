@@ -63,33 +63,101 @@
         grid-row: 4;
         padding: 12px 0;
     }
-    .container{
-        display: grid;
-        grid-column-gap:10px;
-    }
-    .hero-release{
-        grid-area:1/2 ;
-    }
-    .newRelease-box{
-        grid-area: none;
-        grid-row-start: none;
-    }
-    .event-weather{
-        display: block;
-        grid-template-columns: 30%;
-    }
-    .hero-box{
-        height: 30%;
-    }
-    .spotlight{
-        display: block;
-        grid-template-columns: 30%;
-        grid-area: 1/3;
-        border-style: none;
-        padding: 0;
-        margin-top: 0;
-    }
-    .spotlight3-box{
-        display: grid;
-    }
+/*Second Part*/
+.container{
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 33% 34% 33%;
+}
+
+.welcome{
+    font-size: 2.5em;
+
+}
+.theChamber{
+    padding: 0.8em;
+    top: 30em;
+    left: 25em;
+}
+
+.event-box{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    width: 100%;
+}
+.weather-box{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    width: 100%;
+    margin-left: 0%;
+}
+.join-box{
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column:initial;  
+}
+.join-box h2{
+    top: 15%;
+    padding: 15px;
+}
+.join-box p{
+    padding-top: 40%;
+    font-size: 1.3em;
+}
+.intro-box{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column:unset;  
+    background-image:url('https://w0.peakpx.com/wallpaper/650/923/HD-wallpaper-winter-night-moon-snow-mountains-cabin-clouds-landscape.jpg');
+    object-fit: cover;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    grid-row: 1 / span 2;
+}
+.intro{
+    display: none;
+}
+.release-box{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    width: 100%;
+
+}
+.Weather, .grades, .details {
+    width: auto;
+  }
+.spot{
+    grid-column:unset;
+    grid-template-columns: unset;
+}
+.spot1-box{
+    display: grid;
+    grid-row-start: 1;
+    grid-column-start: 3; 
+}
+hr{
+    height: 0;
+}
+.spot2-box{
+    grid-row-start: 2;
+    grid-column-start: 3; 
+}
+.spot3-box{
+    display: grid;
+    grid-row-start: 3;
+    grid-column-start: 3; 
+    background-color: #2c2177;
+    text-align: center;
+    border-style: groove;
+    padding: 10px;
+}
+.spot3-box p{
+    color: white;
+}
+.truck{
+    margin-left: 20%;
+}
+.tree{
+    margin-left: 20%;
+}
 }
