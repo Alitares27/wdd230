@@ -44,19 +44,17 @@ header{
     float: right;
 }
 .logo-box h1,.logo-box p{
-    margin: 0 2evw;
+    margin: 0 2em;
 }
 .menu{
     text-align: right;
 }
 nav button{
-    margin: .2rem 2vw;
+    margin: .2rem 1em;
     background: transparent;
     border: 2px solid rgba(220, 220, 220, 0.3);
     font-size: 2rem;
     color: white;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 nav{ 
@@ -160,7 +158,7 @@ h5{
     top: 12em;
     left: 16em;
     background-color: green;
-    border-color: green;
+    border-color: transparent;
     border-radius: 0.5em;
 }
 /*event-box*/
