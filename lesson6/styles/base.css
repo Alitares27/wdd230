@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+header{
+    background-color:#4f4f4f;
+    display: grid;
+    grid-template-columns: 65% 15% 20%;
+}
+.logo-box{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    color: white;   
+}
+.worldlogo{
+    width: 60px;
+    padding: 8px 8px;
+}
+.logo-box h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    left: 22%;
+    top: 1%;
+}
+.logo-box p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 22%;
+    top: 5%;
+}
+.icon-box{
+    padding-top: 20px;
+}
+.fb,.lin{
+    width: 25px;
+    float: right;
+}
+.logo-box h1,.logo-box p{
+    margin: 0 2em;
+}
+.menu{
+    text-align: right;
+}
+nav button{
+    margin: .2rem 1em;
+    background: transparent;
+    border: 2px solid rgba(220, 220, 220, 0.3);
+    font-size: 2rem;
+    color: white;
+    box-sizing: border-box;
+}
+nav{ 
+    background-color: #4f4f4f;
+    width: auto;
+    font-weight: bold;
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    background-color:dodgerblue;
+}
+nav ul {
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+#hamburgerBtn span:nth-child(1){display:block}
+#hamburgerBtn span:nth-child(2){display: none;}
+#hamburgerBtn.open span:nth-child(1){display:none}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+#date-box{
+    background-color:#6c6c6c;
+    display: grid;
+    color: white;
+    position: relative;
+    left: 5px;
+    font-size: 15px;
+    width: 97%;
+    justify-content: center;
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 4;
+    padding: 12px 0;
+}
+
+footer{
+    margin-top: 10px;
+    background-color: #4f4f4f;
+    color: white;
+    text-align: center;
+    display: grid;
+}
+.top-footer img{
+    width: 100px;
+    padding: 5px 5px
+}
+
+/* Second Part*/
+h5{
+    background-color: #4f4f4f;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 1rem;
+    padding-top: 0.5em;
+    text-align: center;
+}
+/*intro-box*/
+.intro-box{
+    position: relative;
+}
+.intro{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.welcome{
+    color: yellow;
+    font-size: 2em;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+.theChamber{
+    font-size: 1em;
+    font-weight: 900;
+    padding: 0.5em;
+    position: absolute;
+    top: 12em;
+    left: 16em;
+    background-color: green;
+    border-color: transparent;
+    border-radius: 0.5em;
+}
+/*event-box*/
+.event-box{
+    grid-row-start: 2;
+    background-color: #2c2177;
+    padding: 1em;
+}
+.ribbon{
+    color:yellow;
+    text-shadow: 0 0 30px #fff;
+    padding: 1rem;
+}
+.event-box h3,.joinus{
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+.info{
+    color: yellow;
+    text-decoration: none;
+}
+/*weather-box*/
+.weather-box{
+    grid-row-start: 3;
+    background-color: white;
+    padding: 1em;
+}
+.Weather{
+    color:yellow;
+    text-shadow: 0 0 30px #fff;
+    padding: 1rem;
+    background-color: #2c2177;
+}
+.scale{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1.5em ;
+    background-color: #2c2177;
+}
+.weather-img{
+    width: 70%;
+    margin: 0px auto;
+}
+.grades{
+    color: white;
+    font-size: 4em;
+}
+.details{
+    color: white;
+    font-size: 1em;
+    background-color: #2c2177;
+    padding-bottom: 1em;
+}
+.wind{
+    font-weight: 700;
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content:space-between;
+}
+/*release-box*/
+.release-box{
+    grid-row-start: 4;
+    background-color: #2c2177;
+    padding: 1.5em;
+}
+.Release{
+    color:yellow;
+    text-shadow: 0 0 30px #fff;
+    padding: 1rem;
+    background-color: #2c2177;
+}
+.release-box p{
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+/*join-box*/
+.join-box{
+    display: none;
+}
+/*spot*/
+.spot1-box,.spot2-box,.spot3-box{
+    padding: 10px 2px;
+    justify-content: center;
+    box-shadow: 1px 1px 2px 2px black;
+    padding: 1rem 1rem;
+    background-color: #2c2177;
+    text-align: center;
+    border-style: groove;
+    padding: 10px;
+}
+.spot1-box p,.spot2-box p,.spot3-box p{
+    color: white;
+}
+.Thankful,.primera,.treefort{
+    color:yellow;
+    text-shadow: 0 0 30px #fff;
+    padding: 1rem;
+}
+.truck,.pencils,.tree{
+    width: 8rem;
+}
+.spotlight p{
+    color: white;
+    font-style: italic;
+    font-size: 1.2em;
+}
+.spot3-box{
+    display: none;
+}
+

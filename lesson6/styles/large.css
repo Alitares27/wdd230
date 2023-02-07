@@ -1,0 +1,163 @@
+@media only screen and (min-width:64rem){
+    header{
+        background-color:#4f4f4f;
+        display: grid;
+        grid-template-columns: 30% 20% 50%;
+    }
+    .logo-box{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        color: white;   
+    }
+    .logo-box h1{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+        left: 15%;
+        top: 1%;
+    }
+    .logo-box p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        left: 15%;
+        top: 5%;
+    }
+   nav{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: -100px;
+   }
+    nav ul {
+        display: flex;
+        font-size: 28px;
+    }
+    nav button{
+        display: none;
+    }
+    nav ul li a{
+        display: grid;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: white;
+        padding: .5rem 1rem;
+        
+    }
+    .icon-box{
+        display: block;
+        position: relative;
+        left: 500px;
+    }
+    #date-box{
+        background-color:#6c6c6c;
+        display: grid;
+        color: white;
+        position: relative;
+        left: 15px;
+        font-size: 20px;
+        width: 97%;
+        justify-content: center;
+        text-align: center;
+        grid-column: 1 / 4;
+        grid-row: 4;
+        padding: 12px 0;
+    }
+/*Second Part*/
+.container{
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 33% 34% 33%;
+}
+
+.welcome{
+    font-size: 2.5em;
+
+}
+.theChamber{
+    padding: 0.8em;
+    top: 30em;
+    left: 25em;
+}
+
+.event-box{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    width: 100%;
+}
+.weather-box{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    width: 100%;
+    margin-left: 0%;
+}
+.join-box{
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column:initial;  
+}
+.join-box h2{
+    top: 15%;
+    padding: 15px;
+}
+.join-box p{
+    padding-top: 40%;
+    font-size: 1.3em;
+}
+.intro-box{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column:unset;  
+    background-image:url('https://w0.peakpx.com/wallpaper/650/923/HD-wallpaper-winter-night-moon-snow-mountains-cabin-clouds-landscape.jpg');
+    object-fit: cover;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    grid-row: 1 / span 2;
+}
+.intro{
+    display: none;
+}
+.release-box{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    width: 100%;
+
+}
+.Weather, .grades, .details {
+    width: auto;
+  }
+.spot{
+    grid-column:unset;
+    grid-template-columns: unset;
+}
+.spot1-box{
+    display: grid;
+    grid-row-start: 1;
+    grid-column-start: 3; 
+}
+hr{
+    height: 0;
+}
+.spot2-box{
+    grid-row-start: 2;
+    grid-column-start: 3; 
+}
+.spot3-box{
+    display: grid;
+    grid-row-start: 3;
+    grid-column-start: 3; 
+    background-color: #2c2177;
+    text-align: center;
+    border-style: groove;
+    padding: 10px;
+}
+.spot3-box p{
+    color: white;
+}
+.truck{
+    margin-left: 20%;
+}
+.tree{
+    margin-left: 20%;
+}
+}
