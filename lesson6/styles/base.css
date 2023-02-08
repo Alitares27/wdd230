@@ -139,12 +139,14 @@ h5{
     position: relative;
 }
 .intro{
-    width: 100%;
-    object-fit: cover;
     position: relative;
+    width:100%;
+}
+main figure.mainphoto{
+width: 100%;
 }
 .welcome{
-    color: yellow;
+    color: black;
     font-size: 2em;
     position: absolute;
     top: 1em;
