@@ -103,20 +103,20 @@
     padding-top: 40%;
     font-size: 1.3em;
 }
-.intro-box{
+.intro-box {
     grid-row-start: 1;
     grid-column-start: 2;
-    grid-column:unset;  
-    background-image:url('https://w0.peakpx.com/wallpaper/650/923/HD-wallpaper-winter-night-moon-snow-mountains-cabin-clouds-landscape.jpg');
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 3;
+}
+figure{
     object-fit: cover;
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    grid-row: 1 / span 2;
+    position: relative;
+    object-fit: cover;
+    width:auto;
+    height:65%;
 }
-.intro{
-    display: none;
-}
+
 .release-box{
     grid-row-start: 3;
     grid-column-start: 2;
