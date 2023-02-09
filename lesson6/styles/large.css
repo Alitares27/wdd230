@@ -25,6 +25,7 @@
         left: 15%;
         top: 5%;
     }
+
    nav{
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: -100px;
@@ -68,7 +69,6 @@
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 33% 34% 33%;
 }
-
 .welcome{
     font-size: 2.5em;
 
@@ -78,7 +78,6 @@
     top: 30em;
     left: 25em;
 }
-
 .event-box{
     grid-row-start: 1;
     grid-column-start: 1;
@@ -107,16 +106,18 @@
     grid-row-start: 1;
     grid-column-start: 2;
     grid-column: 2 / span 1;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 2;
 }
-figure{
-    object-fit: cover;
+.intro{
     position: relative;
     object-fit: cover;
-    width:auto;
-    height:65%;
+    height:100%;
 }
-
+.mainphoto {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 .release-box{
     grid-row-start: 3;
     grid-column-start: 2;

@@ -83,7 +83,7 @@
     }
     
     .worldlogo{
-        width: 100px;
+
         padding: 10px 20px;
     }
     .fb,.lin{
@@ -132,7 +132,6 @@
     grid-row-start: 2;
     width: 200%;
 }
-
 .spot1-box{
     grid-row-start: 3;
     grid-column-start: 1;
@@ -141,7 +140,6 @@
     border-style: groove;
     padding: 10px;
 }
-
 .spot2-box{
     grid-row-start: 3;
     grid-column-start: 2;

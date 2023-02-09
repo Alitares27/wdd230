@@ -17,7 +17,7 @@ header{
     color: white;   
 }
 .worldlogo{
-    width: 60px;
+
     padding: 8px 8px;
 }
 .logo-box h1{
@@ -142,9 +142,7 @@ h5{
     position: relative;
     width:100%;
 }
-main figure.mainphoto{
-width: 100%;
-}
+
 .welcome{
     color: black;
     font-size: 2em;

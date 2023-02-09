@@ -17,7 +17,15 @@
 
 <header>
     <div class="logo-box">
-        <img class="worldlogo" src="images/worldLogo.png" alt="worldLogo">
+        <figure class="mainlogo">
+            <img class="worldlogo" src="images/worldLogo.png" 
+            sizes="50vw"
+            srcset="images/worldLogo_100.png 279w,
+            images/worldLogo_150.png 511w,
+            images/worldLogo_200.png 1000w"
+            alt="worldLogo">
+        </figure>
+        
         <h1>ConnectedLoop</h1>
         <p>Chamber of Commerce</p>
     </div>
@@ -41,9 +49,12 @@
     <main class="container">
             <div class="intro-box">
                 <figure class="mainphoto">
-                    <img class="intro" src="images/wdd230-org.jpg" alt="cabin"
-                    srcset="images/wdd230-org-200.jpg 1x, images/wdd230-org-400.jpg 2x, images/wdd230-org-800.jpg 3x"
-                    >   
+                    <img class="intro" src="images/wdd230-org.jpg" 
+                    sizes="50vw"
+                    srcset="images/wdd230-org-200.jpg 279w,
+                    images/wdd230-org-400.jpg 511w,
+                    images/wdd230-org-800.jpg 1000w"
+                    alt="cabin">   
                 </figure>
                 
                 <p class="welcome">Welcome to ConnectedLoop</p>
