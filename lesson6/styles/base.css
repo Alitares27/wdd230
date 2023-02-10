@@ -28,13 +28,13 @@ header{
     left: 22%;
     top: 1%;
 }
-.logo-box p{
+.logo-box h2{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 14px;
+    font-size: 120%;
     font-weight: bold;
     position: absolute;
-    left: 22%;
-    top: 5%;
+    left: 30%;
+    top: 10%;
 }
 .icon-box{
     padding-top: 20px;
