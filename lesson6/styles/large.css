@@ -64,6 +64,8 @@
         grid-row: 4;
         padding: 12px 0;
     }
+
+
 /*Second Part*/
 .container{
     grid-template-columns: 25% 50% 25%;
