@@ -93,7 +93,7 @@ nav ul.open{
 #date-box{
     background-color:#cc9900;
     display: grid;
-    color: white;
+    color: black;
     font-weight: 700;
     position: relative;
     left: 5px;
@@ -168,7 +168,7 @@ h5{
     top: 80%;
     left: 60%;
     background-color: #cc9900;
-    color: white;
+    color: black;
     border-color: transparent;
     border-radius: 0.5em;
 }

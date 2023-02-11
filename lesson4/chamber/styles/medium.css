@@ -74,7 +74,7 @@
     #date-box{
         background-color:#cc9900;
         display: grid;
-        color: white;
+        color: black;
         position: relative;
         left: 10px;
         font-size: 18px;
@@ -183,7 +183,7 @@
     padding: 0.5em;
     width: 90%;
     background-color: #cc9900;
-    color: white;
+    color: black;
     border-radius: 0.5em;
     box-shadow: 1px 1px 2px 2px white;
 }
