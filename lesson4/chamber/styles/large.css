@@ -16,7 +16,7 @@
     }
     .firstTitle{
         grid-column-start: 1;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Cinzel Decorative', cursive;
         font-size: 200%;
         font-weight: bold;
         position: absolute;
@@ -25,14 +25,15 @@
     }
     .secondTitle{
         grid-column-start: 1;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 150%;
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 120%;
         font-weight: bold;
         position: absolute;
         left: 13%;
         top: 6%;
     }
    nav{
+    margin-left: 0;
     padding-top: 10%;
     grid-row-start: 2;
     grid-column-start: 2;
@@ -86,14 +87,14 @@
 }
 
 .welcome{
-    font-size: 290%;
+    font-size: 240%;
     font-weight: 900;
 
 }
 .theChamber{
     padding: 0.8em;
     top: 85%;
-    left: 65%;
+    left: 60%;
 }
 
 .event-box{
@@ -113,11 +114,11 @@
     grid-column:initial;  
 }
 .join-box h2{
-    top: 15%;
+    top: 12%;
     padding: 15px;
 }
 .join-box p{
-    padding-top: 40%;
+    padding-top: 42%;
     font-size: 1.3em;
 }
 .intro-box{

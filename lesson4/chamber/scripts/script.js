@@ -48,7 +48,7 @@ x.onclick = togglemenu;
 
 const day = new Date().getDay(); 
 let message;
-if (day > 0 && day < 3 ) {
+if (day > 0 && day < 7 ) {
   message = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
 } else {
   message = '';

@@ -5,7 +5,6 @@
 }
 html{
     width: 98%;
-
 }
 header{
     background-color:firebrick;
@@ -22,7 +21,7 @@ header{
     padding: 8px 8px;
 }
 .firstTitle{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
     font-size: 150%;
     font-weight: bold;
     position: absolute;
@@ -30,12 +29,12 @@ header{
     top: 1%;
 }
 .secondTitle{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 100%;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 85%;
     font-weight: bold;
     position: absolute;
     left: 13%;
-    top: 5%;
+    top: 6%;
 }
 .icon-box{
     padding-top: 30%;
@@ -59,10 +58,12 @@ nav button{
     box-sizing: border-box;
 }
 nav{ 
+    font-family: 'Cinzel Decorative', cursive;
     background-color: firebrick;
     width: auto;
     font-weight: bold;
     float: left;
+    margin-left: -100px;
 }
 nav ul{
     list-style-type: none;
@@ -103,6 +104,7 @@ nav ul.open{
     grid-column: 1 / 4;
     grid-row: 4;
     padding: 12px 0;
+    font-family: 'Montserrat';
 }
 
 footer{
@@ -111,6 +113,7 @@ footer{
     color: white;
     text-align: center;
     display: grid;
+    font-family: 'Montserrat';
 }
 .top-footer img{
     width: 100px;
@@ -128,7 +131,7 @@ h5{
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+    font-family: 'Montserrat';
 }
 .container{
     display: grid;
@@ -148,8 +151,9 @@ h5{
     position: relative;
 }
 .welcome{
+    font-family: 'Cinzel Decorative', cursive;
     color: firebrick;
-    font-size: 220%;
+    font-size: 200%;
     position: absolute;
     top: 5%;
     left: 5%;
@@ -158,6 +162,7 @@ h5{
 .theChamber{
     font-size: 1em;
     font-weight: 900;
+    font-family: 'Montserrat';
     padding: 0.5em;
     position: absolute;
     top: 80%;
@@ -174,7 +179,7 @@ h5{
     padding: 1em;
 }
 .ribbon{
-    font-family: cinzel;
+    font-family: 'Cinzel Decorative', cursive;
     color:yellow;
     text-shadow: 0 0 30px #fff;
     padding: 1rem;
@@ -183,6 +188,7 @@ h5{
     color: white;
     font-size: 1.5em;
     padding: 0.5em;
+    font-family: 'Montserrat';
 }
 .info{
     color: yellow;
@@ -193,15 +199,17 @@ h5{
     grid-row-start: 3;
     background-color: white;
     padding: 1em;
+    font-family: 'Montserrat';
 }
 .Weather{
-    font-family: cinzel;
+    font-family: 'Cinzel Decorative', cursive;
     color:yellow;
     text-shadow: 0 0 30px #fff;
     padding: 1rem;
     background-color: firebrick;
 }
 .scale{
+    font-family: 'Montserrat';
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 1.5em ;
@@ -216,6 +224,7 @@ h5{
     font-size: 4em;
 }
 .details{
+    font-family: 'Montserrat';
     color: white;
     font-size: 1em;
     background-color: firebrick;
@@ -233,9 +242,10 @@ h5{
     grid-row-start: 4;
     background-color: firebrick;
     padding: 1.5em;
+    font-family: 'Montserrat';
 }
 .Release{
-    font-family: cinzel;
+    font-family: 'Cinzel Decorative', cursive;
     color:yellow;
     text-shadow: 0 0 30px #fff;
     padding: 1rem;
@@ -264,16 +274,17 @@ h5{
 }
 .spot1-box p,.spot2-box p,.spot3-box p{
     color: white;
+    font-family: 'Montserrat';
 }
 .forYou{
-    font-family: cinzel;
+    font-family: 'Cinzel Decorative', cursive;
     font-weight: 900;
 }
 .spot1-box p,.spot2-box p,.spot3-box p{
     padding-top: 2%;
 }
 .Thankful,.primera,.treefort{
-    font-family: cinzel;
+    font-family: 'Cinzel Decorative', cursive;
     color:yellow;
     text-shadow: 0 0 30px #fff;
     padding: 1rem;
