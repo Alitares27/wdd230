@@ -4,8 +4,9 @@ const messages = document.createElement('p')
 messages.innerHTML = `Image ${number}`
 images.setAttribute('loading','lazy')
 images.setAttribute('src', `https://picsum.photos/1600/900?${number}`);
-document.body.appendChild(images);
 document.body.appendChild(messages)
+document.body.appendChild(images);
+
 }
 const option = {
     threshold: 0.9
