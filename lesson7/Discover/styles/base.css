@@ -1,0 +1,303 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 98%;
+}
+header{
+    background-color:firebrick;
+    display: grid;
+    grid-template-columns: 65% 15% 20%;
+}
+.logo-box{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    color: white;   
+}
+.worldlogo{
+    width: 80px;
+    padding: 8px 8px;
+}
+.firstTitle{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 150%;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 1%;
+}
+.secondTitle{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 85%;
+    font-weight: bold;
+    position: absolute;
+    left: 13%;
+    top: 6%;
+}
+.icon-box{
+    padding-top: 30%;
+}
+.fb,.lin{
+    width: 45%;
+    float: right;
+}
+.logo-box h1,.logo-box p{
+    margin: 0 2em;
+}
+.menu{
+    text-align: right;
+}
+nav button{
+    margin: .2rem 1em;
+    background: transparent;
+    border: 2px solid rgba(220, 220, 220, 0.3);
+    font-size: 2rem;
+    color: white;
+    box-sizing: border-box;
+}
+nav{ 
+    font-family: 'Cinzel Decorative', cursive;
+    background-color: firebrick;
+    width: auto;
+    font-weight: bold;
+    float: left;
+    margin-left: -100px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    background-color:#cc9900;
+}
+nav ul {
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+#hamburgerBtn span:nth-child(1){display:block}
+#hamburgerBtn span:nth-child(2){display: none;}
+#hamburgerBtn.open span:nth-child(1){display:none}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+#date-box{
+    background-color:#cc9900;
+    display: grid;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    left: 5px;
+    font-size: 15px;
+    width: 97%;
+    justify-content: center;
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 4;
+    padding: 12px 0;
+    font-family: 'Montserrat';
+}
+
+footer{
+    margin-top: 2%;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+    display: grid;
+    font-family: 'Montserrat';
+}
+.top-footer img{
+    width: 100px;
+    padding: 5px 5px
+}
+.bottom-footer{
+    padding-bottom: 5%;
+}
+/* Second Part*/
+#message{
+    background-color: firebrick;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+}
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 1rem;
+    padding-top: 0.5em;
+    text-align: center;
+}
+/*intro-box*/
+.intro-box{
+    position: relative;
+}
+.intro{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.welcome{
+    font-family: 'Cinzel Decorative', cursive;
+    color: firebrick;
+    font-size: 200%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-weight: 900;
+}
+.theChamber{
+    font-size: 1em;
+    font-weight: 900;
+    font-family: 'Montserrat';
+    padding: 0.5em;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    background-color: #cc9900;
+    color: black;
+    border-color: transparent;
+    border-radius: 0.5em;
+}
+/*event-box*/
+.event-box{
+    grid-row-start: 2;
+    background-color: firebrick;
+    padding: 1em;
+}
+.ribbon{
+    font-family: 'Cinzel Decorative', cursive;
+    color:yellow;
+    text-shadow: 0 0 30px #fff;
+    padding: 1rem;
+}
+.event-box h3,.joinus{
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em;
+    font-family: 'Montserrat';
+}
+.info{
+    color: yellow;
+    text-decoration: none;
+}
+/*weather-box*/
+.weather-box{
+    grid-row-start: 3;
+    background-color: white;
+    padding: 1em;
+    font-family: 'Montserrat';
+}
+.Weather{
+    font-family: 'Cinzel Decorative', cursive;
+    color:yellow;
+    text-shadow: 0 0 30px #fff;
+    padding: 1rem;
+    background-color: firebrick;
+}
+.scale{
+    font-family: 'Montserrat';
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1.5em ;
+    background-color: firebrick;
+}
+.weather-img{
+    width: 70%;
+    margin: 0px auto;
+}
+.grades{
+    color: white;
+    font-size: 4em;
+}
+.details{
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 1em;
+    background-color: firebrick;
+    padding-bottom: 1em;
+}
+.wind{
+    font-weight: 700;
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content:space-between;
+}
+/*release-box*/
+.release-box{
+    grid-row-start: 4;
+    background-color: firebrick;
+    padding: 1.5em;
+    font-family: 'Montserrat';
+}
+.Release{
+    font-family: 'Cinzel Decorative', cursive;
+    color:yellow;
+    text-shadow: 0 0 30px #fff;
+    padding: 1rem;
+
+    /*background-color: #2c2177;*/
+}
+.release-box p{
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+/*join-box*/
+.join-box{
+    display: none;
+}
+/*spot*/
+.spot1-box,.spot2-box,.spot3-box{
+    padding: 10px 2px;
+    justify-content: center;
+    box-shadow: 1px 1px 2px 2px #cc9900;
+    padding: 1rem 1rem;
+    background-color: firebrick;
+    text-align: center;
+    border-style: groove;
+    padding: 10px;
+}
+.spot1-box p,.spot2-box p,.spot3-box p{
+    color: white;
+    font-family: 'Montserrat';
+}
+.forYou{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 900;
+}
+.spot1-box p,.spot2-box p,.spot3-box p{
+    padding-top: 2%;
+}
+.Thankful,.primera,.treefort{
+    font-family: 'Cinzel Decorative', cursive;
+    color:yellow;
+    text-shadow: 0 0 30px #fff;
+    padding: 1rem;
+}
+.truck,.pencils,.tree{
+    width: 8rem;
+}
+.spotlight p{
+    color: white;
+    font-style: italic;
+    font-size: 1.2em;
+}
+.spot3-box{
+    display: none;
+}
+

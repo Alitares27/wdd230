@@ -9,7 +9,7 @@ document.body.appendChild(images);
 
 }
 const option = {
-    threshold: 0.9
+    threshold: 1
 }
 
 let block = document.querySelectorAll('img');
