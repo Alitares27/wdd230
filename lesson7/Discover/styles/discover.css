@@ -154,8 +154,11 @@ footer{
     font-size: 150%;
     padding: 2%;
 }
-.misti{
+
+
+.misti:hover{
     filter: saturate(200%);
+    box-shadow: 0 0 50px #333;
 }
 .intro{
     color: white;
@@ -367,7 +370,6 @@ footer{
     box-shadow: 0 0 50px #333;
 }
 .bk3{
-
     width: 90%;
     margin: 2% auto;
     justify-content: center;
@@ -378,7 +380,6 @@ footer{
     font-family: montserrat;
 }
 .bk4,.bk5{
-
     width: 90%;
     margin: 2% auto;
     justify-content: center;
@@ -495,7 +496,6 @@ footer{
     transform:scale(1.5);
 }
 .bk1{
-  
     overflow: hidden;
     height: 100%;
     width: 100%;
