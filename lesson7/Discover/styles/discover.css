@@ -133,15 +133,13 @@ footer{
     font-size: 25px;
     text-align: center;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
     font-family: 'Montserrat';
 }
 .container{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto;
-    row-gap: 1rem;
+
     padding-top: 0.5em;
     text-align: center;
 }
@@ -168,29 +166,32 @@ footer{
     font-family: cinzel;
     font-weight: 600;
     font-size: 120%;
-   
 }
-.bk2{
-    width: 90%;
+.box2{
+    width: 80%;
     margin: 2% auto;
     justify-content: center;
-    padding: 15% auto;
+    padding: 0 auto;
 }
-.bk2 h1{
+.box2 h1{
     font-family: cinzel;
     font-size: 150%;
 }
-.bk3,.bk4,.bk5{
+.box3,.box4,.box5{
     width: 90%;
     margin: 2% auto;
     justify-content: center;
     padding: 15% auto;
 }
-.bk2 p,.bk3 p,.bk4 p,.bk5 p{
-    padding: 3% 0%;
+.box2,.box3,.box4,.box5{
+    width: 80%;
+    margin: 2% auto;
+    justify-content: center;
+    padding: 0;
     font-family: montserrat;
 }
-
+.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}
+.mapouter{position:relative;text-align:center;height:100%;width:100%;}
 @media only screen and (min-width:35rem){
     *{
         box-sizing: border-box;
@@ -235,8 +236,6 @@ footer{
         border: 2px solid rgba(220, 220, 220, 0.3);
         font-size: 2rem;
         color: white;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
     nav{ 
@@ -322,7 +321,6 @@ footer{
     color: white;
     background-color: firebrick;
     display: grid;
-
     font-family: cinzel;
     font-weight: 600;
     font-size: 180%;
@@ -331,19 +329,16 @@ footer{
 .misti:hover {
     transition: transform .5s;
     transform: scale(1.1);
-
 }
 .bk2 img,.bk3 img,.bk4 img,.bk5 img{
     border-radius: 16px;
 }
 .bk1{
-
     overflow: hidden;
 }
 .intro{
     color: white;
     background: firebrick;
-    padding: 2% 10%;
     width: 90%;
     margin: 2% auto;
     justify-content: center;
@@ -353,7 +348,6 @@ footer{
 
 }
 .bk2{
-
     width: 90%;
     margin: 2% auto;
     justify-content: center;
@@ -373,8 +367,7 @@ footer{
     justify-content: center;
     font-family: montserrat;
 }
-.bk3 p{
-    padding: 3% 0%;
+.box3{
     font-family: montserrat;
 }
 .bk4,.bk5{
@@ -383,8 +376,7 @@ footer{
     justify-content: center;
     font-family: montserrat;
 }
-.bk4 p,.bk5 p{
-    padding: 3% 0%;
+.box4,.box5{
     font-family: montserrat;
 }
 }
