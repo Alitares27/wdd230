@@ -154,8 +154,6 @@ footer{
     font-size: 150%;
     padding: 2%;
 }
-
-
 .misti:hover{
     filter: saturate(200%);
     box-shadow: 0 0 50px #333;
