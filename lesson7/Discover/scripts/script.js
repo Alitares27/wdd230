@@ -40,6 +40,6 @@ let message;
 if (day > 0 && day < 4 ) {
   message = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
 } else {
-  message = '';
+  message = 'Welcome';
 }
 document.getElementById("message").innerHTML = message;
