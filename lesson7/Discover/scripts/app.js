@@ -57,7 +57,7 @@ images.forEach(image=>{
 })
 
 //time
-let sc = 0;
+let sc = Number(window.localStorage.getItem("seconds"));
 let mnt = Number(window.localStorage.getItem("minute"));
 let hr = Number(window.localStorage.getItem("hours"));
 let dy = Number(window.localStorage.getItem("day"));
