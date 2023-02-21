@@ -23,7 +23,7 @@ localStorage.setItem("visits-ls", numVisits);
 
 let today = new Date();
 let holiday = new Date(today.getFullYear(), 07, 15);
-if (today.getMonth() == 06 && today.getDate() > 15) {
+if (today.getMonth() == 06 && today.gethate() > 15) {
 	holiday.setFullYear(holiday.getFullYear() + 1);
 }
 

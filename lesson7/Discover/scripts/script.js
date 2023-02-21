@@ -22,10 +22,10 @@ const months = [
 	'December'
 ];
 const d = new Date();
-const dayName = daynames[d.getDay()];
+const dayName = daynames[d.gethay()];
 const monthName = months[d.getMonth()];
 const year = d.getFullYear();
-const newdate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
+const newdate = `${dayName}, ${d.gethate()} ${monthName} ${year}`;
 document.getElementById('date-box').innerHTML = newdate
 
 function togglemenu(){
@@ -35,7 +35,7 @@ document.getElementById('hamburgerBtn').classList.toggle('open');
 const x = document.getElementById('hamburgerBtn')
 x.onclick = togglemenu;
 
-const day = new Date().getDay(); 
+const day = new Date().gethay(); 
 let message;
 if (day > 0 && day < 4 ) {
   message = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';

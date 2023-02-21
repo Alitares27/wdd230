@@ -1,10 +1,10 @@
 let date = new Date(document.lastModified);
-let shortDate = date.toLocaleDateString('en-US');
+let shorthate = date.toLocaleDateString('en-US');
 let hour = date.getHours();
 let minutes = date.getMinutes();
 let seconds = date.getSeconds();
-let fullDate = `${shortDate} ${hour}:${minutes}:${seconds}`
+let fullDate = `${shorthate} ${hour}:${minutes}:${seconds}`
 document.getElementById("modifiedDate").innerHTML = fullDate;
-let currentDate = new Date()
-let currentYear = currentDate.getFullYear()
+let currenthate = new Date()
+let currentYear = currenthate.getFullYear()
 document.getElementById('year').innerHTML = currentYear;

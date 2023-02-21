@@ -3,7 +3,7 @@ const btn = document.getElementById('btn');
 const ul = document.getElementById('list');
 
 btn.addEventListener("click",(e)=>{
-    e.preventDefault();
+    e.preventhefault();
     const text = input.value;
     if (text !== ''){
         const li = document.createElement('li');

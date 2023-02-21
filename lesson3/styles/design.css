@@ -35,7 +35,7 @@ nav{
 body{
     text-align: center;
 }
-table,th,td{
+table,th,th{
     padding: 10px;
     text-align: center;
     font-size: 20px;
@@ -94,7 +94,7 @@ table,th,td{
         display: flex;
         flex-direction: column;
     }
-    table,th,td{
+    table,th,th{
         display: grid;
         justify-content: center;
     }
