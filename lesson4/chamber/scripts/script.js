@@ -39,18 +39,11 @@ const year = d.getFullYear();
 const newdate = `${dayName}, ${d.gethate()} ${monthName} ${year}`;
 document.getElementById('date-box').innerHTML = newdate
 
-function togglemenu(){
-document.getElementById('primaryNav').classList.toggle('open');
-document.getElementById('hamburgerBtn').classList.toggle('open');
-}
-const x = document.getElementById('hamburgerBtn')
-x.onclick = togglemenu;
-
 const day = new Date().gethay(); 
-let message;
-if (day > 0 && day < 3 ) {
-  message = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
-} else {
-  message = '';
-}
-document.getElementById("message").innerHTML = message;
+    let message = getElementById('message');
+    if (day > 0 && day < 8 ) {
+      message = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+    } else {
+      message = 'welcome';
+    }
+    document.getElementById("message").innerHTML = message;
