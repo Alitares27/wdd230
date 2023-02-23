@@ -1,0 +1,409 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+header{
+    background-color:firebrick;
+    display: grid;
+    grid-template-columns: 65% 15% 20%;
+}
+.logo-box{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    color: white;   
+}
+.worldlogo{
+    width: 80px;
+    padding: 8px 8px;
+}
+.firstTitle{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 150%;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 1%;
+}
+.secondTitle{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 85%;
+    font-weight: bold;
+    position: absolute;
+    left: 13%;
+    top: 6%;
+}
+.icon-box{
+    padding-top: 30%;
+}
+.fb,.lin{
+    width: 45%;
+    float: right;
+}
+.logo-box h1,.logo-box p{
+    margin: 0 2em;
+}
+.menu{
+    text-align: right;
+}
+nav button{
+    margin: .2rem 1em;
+    background: transparent;
+    border: 2px solid rgba(220, 220, 220, 0.3);
+    font-size: 2rem;
+    color: white;
+    box-sizing: border-box;
+}
+nav{ 
+    font-family: 'Cinzel Decorative', cursive;
+    background-color: firebrick;
+    width: auto;
+    font-weight: bold;
+    float: left;
+    margin-left: -100px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    background-color:#cc9900;
+}
+nav ul {
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+#hamburgerBtn span:nth-child(1){display:block}
+#hamburgerBtn span:nth-child(2){display: none;}
+#hamburgerBtn.open span:nth-child(1){display:none}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+#date-box{
+    background-color:#cc9900;
+    display: grid;
+    color: black;
+    font-weight: 900;
+    position: relative;
+    left: 5px;
+    font-size: 15px;
+    width: 97%;
+    justify-content: center;
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 4;
+    padding: 20px 0;
+    font-family: 'Montserrat';
+    margin-top: 5%;
+}
+
+footer{
+    margin-top: 2%;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+    display: grid;
+    font-family: 'Montserrat';
+}
+.top-footer img{
+    width: 100px;
+    padding: 5px 5px
+}
+.bottom-footer{
+    padding-bottom: 5%;
+}
+//********Form****************//
+
+.forms{
+    margin: 1% auto;
+    justify-content: center;
+}
+fieldset{
+    margin: 1% 5%;
+    border: 1px solid #cc9900;
+    border-radius: 1%;
+    padding: .5rem 2%;
+}
+legend{
+    color:#cc9900;
+    margin: 1% 4%;
+    padding: 1% .5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.data,.plans,.members,.info{
+    display: block;
+    padding: 1%;
+    color: firebrick;
+    font-size: .8rem;
+}
+.descript{
+    width: 10rem;
+    height: 10rem;
+    padding: 1%;
+}
+.join label,.members label{
+    font-size: 1.3rem;
+}
+.join input,.members input{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px firebrick;
+    border-radius: 5px;
+    padding: 1%;
+    width: 80%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.join input:required, .members input:required{
+    background-color: rgba(178, 34, 34, 0.2);
+}
+.join input:required:valid, .members input:required:valid{
+    background-color: rgba(0, 128, 0, 0.2);
+}
+
+
+.btn{
+    width: 15%;
+    padding: 1%;
+    background-color: firebrick;
+    border-color: firebrick;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 700;
+    margin: 2% 4%;
+    width: 90%;
+    max-width: 20rem;
+}
+.btn:hover{
+    background-color: #cc9900;
+    color: black;
+    font-weight: 700;
+    border-color: #cc9900;
+}
+
+//***************************//
+@media only screen and (min-width:35rem){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-color:firebrick;
+        display: grid;
+        grid-template-columns: 50% 30% 20%;
+    }
+    .logo-box{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        color: white;   
+    }
+    .icon-box{
+        padding-top: 5%;
+    }
+    .firstTitle{
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 150%;
+        font-weight: bold;
+        position: absolute;
+        left: 10%;
+        top: 1%;
+    }
+    .secondTitle{
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 100%;
+        font-weight: bold;
+        position: absolute;
+        left: 12%;
+        top: 5%;
+    }
+    .menu{
+        text-align: center;
+    }
+    nav button{
+        margin: .2rem 2vw;
+        background: transparent;
+        border: 2px solid rgba(220, 220, 220, 0.3);
+        font-size: 2rem;
+        color: white;
+        box-sizing: border-box;
+    }
+    nav{ 
+        background-color: firebrick;
+        font-weight: bold;
+        margin-left: 0;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin-left: 0;
+    }
+    nav ul li a{
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        background-color:#cc9900;
+    }
+    nav ul {
+        display: none;
+    }
+    nav ul.open{
+        display: block;
+    }
+    #hamburgerBtn span:nth-child(1){display:block}
+    #hamburgerBtn span:nth-child(2){display: none;}
+    #hamburgerBtn.open span:nth-child(1){display:none}
+    #hamburgerBtn.open span:nth-child(2){display: block;}
+    
+    #date-box{
+        background-color:#cc9900;
+        display: grid;
+        color: black;
+        font-weight: 900;
+        position: relative;
+        left: 10px;
+        font-size: 18px;
+        width: 97%;
+        justify-content: center;
+        text-align: center;
+        grid-column: 1 / 4;
+        grid-row: 4;
+        padding: 12px 0;
+    }
+    
+    .worldlogo{
+        width: 100px;
+        padding: 10px 20px;
+    }
+    .fb,.lin{
+        width: 45px;
+        float: right;
+    }
+    .top-footer{
+        display: grid;
+        grid-template-columns: 40% 30% 30%;
+        padding: 2% 2%;
+}
+    .top-footer img{
+        width: 160px;
+}
+    .author{
+        max-width: 600px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 10% 30% 30% 30%;
+        justify-content:center;
+}
+    
+}
+
+@media only screen and (min-width:64rem){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-color:firebrick;
+        display: grid;
+        grid-template-columns: 30% 50% 20%;
+    }
+    .logo-box{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-start: 1;
+        color: white; 
+        grid-row: 1 / span 2;  
+    }
+    .worldlogo{
+        width: 50%;
+    }
+    .firstTitle{
+        grid-column-start: 1;
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 200%;
+        font-weight: bold;
+        position: absolute;
+        left: 12%;
+        top: 1%;
+    }
+    .secondTitle{
+        grid-column-start: 1;
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 120%;
+        font-weight: bold;
+        position: absolute;
+        left: 13%;
+        top: 6%;
+    }
+   nav{
+    margin-left: 0;
+    padding-top: 10%;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    font-family: cinzel;
+    top: 20%;
+    
+   }
+    nav ul {
+        display: flex;
+        text-align: center;
+        font-size: 120%;
+    }
+    nav button{
+        display: none;
+    }
+    nav ul li a{
+        display: grid;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: white;
+        padding: .5rem 1rem;
+        
+    }
+    .icon-box{
+        grid-column-start: 3;
+        top: unset;
+        width: 50%;
+        grid-row: 1 / span 2;  
+    }
+    #date-box{
+        background-color:#cc9900;
+        display: grid;
+        color: black;
+        font-weight: 900;
+        position: relative;
+        left: 15px;
+        font-size: 20px;
+        width: 97%;
+        justify-content: center;
+        text-align: center;
+        grid-column: 1 / 4;
+        grid-row: 4;
+        padding: 12px 0;
+    }
+    .bottom-footer{
+        padding-bottom: 2%;
+    }
+
+
+}
