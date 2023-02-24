@@ -113,7 +113,10 @@ nav ul.open{
     text-align: center;
     padding: 1% 0;
 }
-
+.linking{
+    text-decoration: none;
+    color: white;
+}
 footer{
     margin-top: 2%;
     background-color: firebrick;

@@ -127,13 +127,15 @@ footer{
     padding-bottom: 5%;
 }
 /* Second Part*/
-#message{
+#sms{
     background-color: firebrick;
     color: black;
     font-size: 25px;
+    font-weight: 800;
     text-align: center;
     width: 100%;
     font-family: 'Montserrat';
+    padding: 2%;
 }
 .container{
     display: grid;
