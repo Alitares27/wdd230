@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>Welcome to Lambus</title>
+    <link rel="stylesheet" href="styles/thankful.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo-box">
+            <img class="worldlogo" src="images/LamBus_logo.png" alt="lambus">
+            <h1 class="firstTitle">LamBus</h1>
+            <h1 class="secondTitle">Chamber of Commerce</h1>
+        </div>
+       
+        <nav class="menu">
+        <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+        <ul id="primaryNav">
+            <li><a href="https://alitares27.github.io/wdd230/lesson4/chamber/">Home</a></li>
+            <li><a href="https://alitares27.github.io/wdd230/lesson7/Discover/discover.html">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="https://alitares27.github.io/wdd230/lesson8/join/join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div class="container">
+        <div class="block1">
+            <img class="worldlogo" src="images/LamBus_logo.png" alt="lambus">
+            <h1>LamBus</h1>
+
+        </div>
+        <div class="block2">
+            <h1>Thanks for registering</h1>
+            <h2>We will send you an email with additional information and some surprises</h2>
+            <h3>While the big day arrives, we encourage you to continue reviewing our services so that you can discover all the incredible things we have for you.</h3>
+            <h4>Do not forget to follow us on social networks to be aware of all the news we have for you</h4>
+        </div>
+        
+    </div>
+    <footer>
+        <section class="top-footer">
+            <div class="detail0">
+                <img src="images/LamBus_logo.png" alt="worldLogo">
+            </div>
+            <div class="detail1">
+                <h2>LamBus Chamber of Commerce</h2>
+                <p>100 Cusco Street</p>
+                <p>LamBus, Arequipa 04001</p>
+            </div>
+            <div class="detail2">
+                <p> info@lambus.com</p>
+                <p> +54 997 654 086 </p>
+                <p> &#x1F4CD;<a href="https://goo.gl/maps/zJiyebokFZAuNxPK9">Take a Look</a></p>
+                <div class="mapouter"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=plaza de armas arequipa&t=k&z=16&ie=UTF8&iwloc=&output=embed" ></iframe></div></div>
+            </div>
+        </section> 
+        <div class="bottom-footer">
+            <hr>
+            <div class="author">
+            <p class="copyright">&copy; <span id="year">2023</span>
+            <p class="business">LamBus Chamber |</p>
+            <p class="name">Aldair Payehuanca |</p>
+            <p class="project">WDD 230 Project |</p>
+        </div>
+    </div>
+        <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
+        <p><code>Time:</code> <span id="today"></span></p>
+	<hr>
+	<p><span class="label">Days until Arequipa anniversary:</span> <span id="daysleft"></span></p>
+    </footer>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,512 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+header{
+    background-color:firebrick;
+    display: grid;
+    grid-template-columns: 65% 15% 20%;
+}
+.logo-box{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    color: white;   
+}
+.worldlogo{
+    width: 80px;
+    padding: 8px 8px;
+}
+.firstTitle{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 150%;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 1%;
+}
+.secondTitle{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 85%;
+    font-weight: bold;
+    position: absolute;
+    left: 13%;
+    top: 6%;
+}
+.icon-box{
+    padding-top: 30%;
+}
+.fb,.lin{
+    width: 45%;
+    float: right;
+}
+.logo-box h1,.logo-box p{
+    margin: 0 2em;
+}
+.menu{
+    text-align: right;
+}
+nav button{
+    margin: .2rem 1em;
+    background: transparent;
+    border: 2px solid rgba(220, 220, 220, 0.3);
+    font-size: 2rem;
+    color: white;
+    box-sizing: border-box;
+}
+nav{ 
+    font-family: 'Cinzel Decorative', cursive;
+    background-color: firebrick;
+    width: auto;
+    font-weight: bold;
+    float: left;
+    margin-left: -100px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    background-color:#cc9900;
+}
+nav ul {
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+#hamburgerBtn span:nth-child(1){display:block}
+#hamburgerBtn span:nth-child(2){display: none;}
+#hamburgerBtn.open span:nth-child(1){display:none}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+#date-box{
+    background-color:#cc9900;
+    display: grid;
+    color: black;
+    font-weight: 900;
+    position: relative;
+    left: 5px;
+    font-size: 15px;
+    width: 97%;
+    justify-content: center;
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 4;
+    padding: 20px 0;
+    font-family: 'Montserrat';
+    margin-top: 5%;
+}
+
+footer{
+    margin-top: 2%;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+    display: grid;
+    font-family: 'Montserrat';
+}
+.top-footer img{
+    width: 100px;
+    padding: 5px 5px
+}
+.bottom-footer{
+    padding-bottom: 5%;
+}
+/* Second Part*/
+#message{
+    background-color: firebrick;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat';
+}
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+
+    padding-top: 0.5em;
+    text-align: center;
+}
+.arequipa{
+    color: white;
+    background-color: firebrick;
+    display: grid;
+    font-family: cinzel;
+    font-weight: 600;
+    font-size: 150%;
+    padding: 2%;
+}
+.misti:hover{
+    filter: saturate(200%);
+    box-shadow: 0 0 50px #333;
+}
+.intro{
+    color: white;
+    background: firebrick;
+    padding: 2% 10%;
+    width: 90%;
+    margin: 2% auto;
+    justify-content: center;
+    font-family: cinzel;
+    font-weight: 600;
+    font-size: 120%;
+}
+.box2{
+    width: 80%;
+    margin: 2% auto;
+    justify-content: center;
+    padding: 0 auto;
+}
+.box2 h1{
+    font-family: cinzel;
+    font-size: 150%;
+}
+.box3,.box4,.box5{
+    width: 90%;
+    margin: 2% auto;
+    justify-content: center;
+    padding: 15% auto;
+}
+.box2,.box3,.box4,.box5{
+    width: 80%;
+    margin: 2% auto;
+    justify-content: center;
+    padding: 0;
+    font-family: montserrat;
+}
+div a{
+    text-decoration: none;
+    color: white;
+}
+.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}
+.mapouter{position:relative;text-align:center;height:100%;width:100%;}
+@media only screen and (min-width:35rem){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-color:firebrick;
+        display: grid;
+        grid-template-columns: 50% 30% 20%;
+    }
+    .logo-box{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        color: white;   
+    }
+    .icon-box{
+        padding-top: 5%;
+    }
+    .firstTitle{
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 150%;
+        font-weight: bold;
+        position: absolute;
+        left: 10%;
+        top: 1%;
+    }
+    .secondTitle{
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 100%;
+        font-weight: bold;
+        position: absolute;
+        left: 12%;
+        top: 5%;
+    }
+    .menu{
+        text-align: center;
+    }
+    nav button{
+        margin: .2rem 2vw;
+        background: transparent;
+        border: 2px solid rgba(220, 220, 220, 0.3);
+        font-size: 2rem;
+        color: white;
+        box-sizing: border-box;
+    }
+    nav{ 
+        background-color: firebrick;
+        font-weight: bold;
+        margin-left: 0;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin-left: 0;
+    }
+    nav ul li a{
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        background-color:#cc9900;
+    }
+    nav ul {
+        display: none;
+    }
+    nav ul.open{
+        display: block;
+    }
+    #hamburgerBtn span:nth-child(1){display:block}
+    #hamburgerBtn span:nth-child(2){display: none;}
+    #hamburgerBtn.open span:nth-child(1){display:none}
+    #hamburgerBtn.open span:nth-child(2){display: block;}
+    
+    #date-box{
+        background-color:#cc9900;
+        display: grid;
+        color: black;
+        font-weight: 900;
+        position: relative;
+        left: 10px;
+        font-size: 18px;
+        width: 97%;
+        justify-content: center;
+        text-align: center;
+        grid-column: 1 / 4;
+        grid-row: 4;
+        padding: 12px 0;
+    }
+    
+    .worldlogo{
+        width: 100px;
+        padding: 10px 20px;
+    }
+    .fb,.lin{
+        width: 45px;
+        float: right;
+    }
+    .top-footer{
+        display: grid;
+        grid-template-columns: 40% 30% 30%;
+        padding: 2% 2%;
+}
+    .top-footer img{
+        width: 160px;
+}
+    .author{
+        max-width: 600px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 10% 30% 30% 30%;
+        justify-content:center;
+}
+    .name{
+        font-weight: bold;
+}
+    .modify{
+        margin: 0 auto;
+}
+
+.firstTitle{
+    display: grid;
+}
+.arequipa{
+    color: white;
+    background-color: firebrick;
+    display: grid;
+    font-family: cinzel;
+    font-weight: 600;
+    font-size: 180%;
+    
+}
+.misti:hover {
+    transition: transform .5s;
+    transform: scale(1.1);
+}
+.bk2 img,.bk3 img,.bk4 img,.bk5 img{
+    border-radius: 16px;
+}
+.bk1{
+    overflow: hidden;
+}
+.intro{
+    color: white;
+    background: firebrick;
+    width: 90%;
+    margin: 2% auto;
+    justify-content: center;
+    font-family: cinzel;
+    font-weight: 600;
+    font-size: 120%;
+
+}
+.bk2{
+    width: 90%;
+    margin: 2% auto;
+    justify-content: center;
+    font-family: montserrat;
+    padding: 15% auto;
+}
+.bk2 h1{
+    font-family: cinzel;
+    font-size: 150%;
+}
+.cathedral:hover,.square:hover,.aceros:hover,.yanahuara:hover {
+    box-shadow: 0 0 50px #333;
+}
+.bk3{
+    width: 90%;
+    margin: 2% auto;
+    justify-content: center;
+    font-family: montserrat;
+}
+.box3{
+    font-family: montserrat;
+}
+.bk4,.bk5{
+    width: 90%;
+    margin: 2% auto;
+    justify-content: center;
+    font-family: montserrat;
+}
+.box4,.box5{
+    font-family: montserrat;
+}
+}
+
+@media only screen and (min-width:64rem){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-color:firebrick;
+        display: grid;
+        grid-template-columns: 30% 50% 20%;
+    }
+    .logo-box{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-start: 1;
+        color: white; 
+        grid-row: 1 / span 2;  
+    }
+    .worldlogo{
+        width: 50%;
+    }
+    .firstTitle{
+        grid-column-start: 1;
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 200%;
+        font-weight: bold;
+        position: absolute;
+        left: 12%;
+        top: 1%;
+    }
+    .secondTitle{
+        grid-column-start: 1;
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 120%;
+        font-weight: bold;
+        position: absolute;
+        left: 13%;
+        top: 6%;
+    }
+   nav{
+    margin-left: 0;
+    padding-top: 10%;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    font-family: cinzel;
+    top: 20%;
+    
+   }
+    nav ul {
+        display: flex;
+        text-align: center;
+        font-size: 120%;
+    }
+    nav button{
+        display: none;
+    }
+    nav ul li a{
+        display: grid;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: white;
+        padding: .5rem 1rem;
+        
+    }
+    .icon-box{
+        grid-column-start: 3;
+        top: unset;
+        width: 50%;
+        grid-row: 1 / span 2;  
+    }
+    #date-box{
+        background-color:#cc9900;
+        display: grid;
+        color: black;
+        font-weight: 900;
+        position: relative;
+        left: 15px;
+        font-size: 20px;
+        width: 97%;
+        justify-content: center;
+        text-align: center;
+        grid-column: 1 / 4;
+        grid-row: 4;
+        padding: 12px 0;
+    }
+    .bottom-footer{
+        padding-bottom: 2%;
+    }
+
+.arequipa{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    display: grid;
+    transition: transform .5s;
+    font-family: cinzel;
+    font-weight: 600;
+    font-size: 180%;
+    padding: 0%;
+}
+
+.arequipa:hover{
+    transform:scale(1.5);
+}
+.bk1{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.misti{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    transition: transform .5s;
+}
+
+.misti:hover{
+    transform:scale(1.5);
+}
+
+.intro{
+    display: grid;
+    padding: 5%;
+}
+}

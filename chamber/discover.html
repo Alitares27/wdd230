@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>The Discover Page</title>
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo-box">
+            <img class="worldlogo" src="images/LamBus_logo.png" alt="lambus">
+            <h1 class="firstTitle">LamBus</h1>
+            <h1 class="secondTitle">Chamber of Commerce</h1>
+        </div>
+        <div class="icon-box">
+            <img class="fb" src="images/fb.png" alt="fbLogo">
+            <img class="lin" src="images/lin.png" alt="linkedinLogo">
+        </div>
+        <nav class="menu">
+        <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+        <ul id="primaryNav">
+            <li><a href="/wdd230/chamber/index.html">Home</a></li>
+            <li><a href="/wdd230/chamber/discover.html">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="/wdd230/chamber/join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <h1 class="time" id="date-box">time</h1>
+    </header>
+
+    <h2 id="message">Welcome</h2>
+    <div class="container">
+        <h1 class="arequipa">Arequipa</h1>
+        <picture class="bk1">
+            <img loading="lazy" class="misti" src="https://c1.wallpaperflare.com/preview/449/729/288/arequipa-peru-travel-peruvian.jpg" alt="misti">
+        </picture>
+        <p class="intro">Arequipa is a Peruvian city, it is the second most populous city in the country. It is considered the "Legal Capital of Peru".
+            Arequipa is also known as The White City or lion of the south</p>
+        <picture class="bk2">
+            <img loading="lazy" class="cathedral" src="https://c0.wallpaperflare.com/preview/134/582/370/santa-catalina-monastery-arequipa-peru.jpg"  alt="Catalina">
+        </picture>
+        <div class="box2">
+            <h1>Location</h1>
+            <p>The department of Arequipa is located in the south of the country, with the following geographic coordinates: 70º48'15" to 70º05'52" west latitude and 14º36'06" to 17º17'54" south latitude;</p>
+            <h1>Surface</h1>
+            <p>Total 502.46 km²</p>
+            <h1>Altitude</h1>
+            <p>Average 2335 M.A.S.L</p>
+            <h1>Population </h1>
+            <p>Total 1,142,900 inhab.</p>
+        </div>
+        <picture class="bk3">
+            <img loading="lazy" class="square" src="https://c1.wallpaperflare.com/preview/120/265/75/main-square-arcade-arequipa-peru-night.jpg"  alt="square">
+        </picture>    
+            <p class="box3">The climate is temperate arid, with an average temperature of about 14.5 °C, rainfall of 75 to 100 mm per year and classified as a BWk climate.118 The city's climate is predominantly dry in winter, autumn and spring due to low humidity atmospheric, 
+                it is also arid due to the scarce effective precipitation and tempered by the thermal condition</p>
+        <picture class="bk4">
+            <img loading="lazy" class="aceros" src="https://www.rumbominero.com/wp-content/uploads/2022/02/aceros-arequipa.jpg"  alt="iron">
+        </picture>
+            <p class="box4">The industrial sector of the city presents the greatest diversification at the national level and is the second most industrialized city in Peru as a result of the creation of the Industrial Park during the first government of the architect Fernando Belaúnde Terry. 
+                After two great earthquakes, in 1958 and 1960, with the law of the "Rehabilitation and Development Board of Arequipa" the Industrial Park was built with two or three factories at that time.</p>
+        
+        <picture class="bk5" >
+            <img loading="lazy" class="yanahuara" src="https://www.peru.travel/Contenido/Atractivo/Imagen/fr/530/1.1/Principal/mirador-yanahuara.jpg"  alt="yanahuara">
+        </picture>
+            <p class="box5">Tourism is a dynamic factor in the economy, consolidating itself as the third most visited city in the country, after Cusco and Lima. In 2010, a total of 1,395,000 visitors arrived in the city.</p>
+        
+    </div>
+    <footer>
+
+        <section class="top-footer">
+            <div class="detail0">
+                <img src="images/LamBus_logo.png" alt="worldLogo">
+            </div>
+            <div class="detail1">
+                <h2>LamBus Chamber of Commerce</h2>
+                <p>100 Cusco Street</p>
+                <p>LamBus, Arequipa 04001</p>
+            </div>
+            <div class="detail2">
+                <p> info@lambus.com</p>
+                <p> +54 997 654 086 </p>
+                <p> &#x1F4CD;<a href="https://goo.gl/maps/zJiyebokFZAuNxPK9">Take a Look</a></p>
+                <div class="mapouter"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=plaza de armas arequipa&t=k&z=16&ie=UTF8&iwloc=&output=embed" ></iframe></div></div>
+            </div>
+        </section> 
+        <div class="bottom-footer">
+            <hr>
+            <div class="author">
+            <p class="copyright">&copy; <span id="year">2023</span>
+            <p class="business">LamBus Chamber |</p>
+            <p class="name">Aldair Payehuanca |</p>
+            <p class="project">WDD 230 Project |</p>
+        </div>
+    </div>
+        <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
+        <p><code>Time:</code> <span id="today"></span></p>
+	<hr>
+	<p><span class="label">Days until Arequipa anniversary:</span> <span id="daysleft"></span></p>
+    </footer>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/messages.js"></script>
+</body>
+</html>
