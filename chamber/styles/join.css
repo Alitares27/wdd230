@@ -66,7 +66,7 @@ nav{
     width: auto;
     font-weight: bold;
     float: left;
-    margin-left: -100px;
+    margin-left: 0px;
 }
 nav ul{
     list-style-type: none;
@@ -131,12 +131,45 @@ footer{
 .forms{
     margin: 1% auto;
     justify-content: center;
+    display: grid;
+}
+.p0,.p1,.p2,.p3{
+    border-style: double;
+    border-color: firebrick;
+    border-radius: 20px;
+}
+.notify h1{
+    font-family: cinzel;
+    font-weight: 700;
+    color: #cc9900;
+}
+.price{
+    font-size: 180%;
+}
+.notify p{
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: montserrat;
+    color: black;
+    font-weight: 800;
+    
+}
+
+.join,.members{
+    display: grid;
+    grid-column-start: 1;
+}
+.notify{
+    display: grid;
+
 }
 fieldset{
     margin: 1% 5%;
     border: 1px solid #cc9900;
     border-radius: 1%;
     padding: .5rem 2%;
+
 }
 legend{
     color:#cc9900;
@@ -153,14 +186,24 @@ legend{
     font-size: .8rem;
 }
 .descript{
-    width: 10rem;
+    display: block;
+    width: 15rem;
     height: 10rem;
     padding: 1%;
+    border-radius: 15px;
+    border-color: firebrick;
 }
 .join label,.members label{
     font-size: 1.3rem;
 }
-.join input,.members input{
+.members label{
+    padding: 10px;
+}
+.plan{
+    padding: 0 2%;
+    display: flex;
+}
+.join input,.bdata{
     display: block;
     font-size: 1rem;
     border: solid 1px firebrick;
@@ -171,12 +214,12 @@ legend{
     background-color: rgba(0, 0, 0, 0.1);
 }
 .join input:required, .members input:required{
-    background-color: rgba(178, 34, 34, 0.2);
+    background-color:rgba(178, 34, 34, 0.3);
 }
 .join input:required:valid, .members input:required:valid{
-    background-color: rgba(0, 128, 0, 0.2);
+    background-color:rgba(0, 128, 0, 0.4);
+    border-color:rgba(0, 128, 0, 0.4) ;
 }
-
 
 .btn{
     width: 15%;
@@ -196,7 +239,19 @@ legend{
     font-weight: 700;
     border-color: #cc9900;
 }
-
+.notify{
+    display: block;
+    grid-column-start: 1;
+}
+.notify div{
+    margin-top: 2%;
+    padding: 5%;
+    background-color: rgba(178, 34, 34, 0.2);
+}
+.notify div:hover{
+    transform:scale(1.1);
+    border-color:#cc9900;
+}
 
 @media only screen and (min-width:35rem){
     *{
@@ -313,6 +368,10 @@ legend{
         grid-template-columns: 10% 30% 30% 30%;
         justify-content:center;
 }
+.notify{
+    display: block;
+    grid-column-start: 1;
+}
     
 }
 
@@ -405,5 +464,14 @@ legend{
         padding-bottom: 2%;
     }
 
-
+    .notify{
+        text-align: center;
+        display: grid;
+        grid-column-start: 2;
+    }
+    .forms{
+        grid-template-columns: 50% 50%;
+        display: grid;
+    
+    }
 }

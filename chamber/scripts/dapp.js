@@ -56,31 +56,4 @@ images.forEach(image=>{
 	observer.observe(image);
 })
 
-//time
-let sc = Number(window.localStorage.getItem("seconds"));
-let mnt = Number(window.localStorage.getItem("minute"));
-let hr = Number(window.localStorage.getItem("hours"));
-let dy = Number(window.localStorage.getItem("day"));
-let timer = function(){
-	sc++;
-		setTimeout(timer,1000)
-		if (sc === 60){
-			mnt++;
-			sc = 0;
-		}
-		if (mnt === 60){
-			hr++;
-			mnt=0;
-		}
-		if(hr === 24){
-			dy++;
-			hr = 0;
-		}
-		localStorage.setItem("day", dy);
-		localStorage.setItem("hours", hr);
-		localStorage.setItem("minute", mnt);
-		localStorage.setItem("seconds", sc);
-		todayDisplay.innerHTML = dy + ' Days ' + hr + ' Hours ' + mnt + ' Minutes ' + sc + ' Seconds'
-}
-	
-	timer()
+

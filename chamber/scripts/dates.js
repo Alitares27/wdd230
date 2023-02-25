@@ -62,9 +62,6 @@ numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
 
-
-
-
 let today = new Date();
 let holiday = new Date(today.getFullYear(), 07, 15);
 if (today.getMonth() == 06 && today.gethate() > 15) {
@@ -77,30 +74,3 @@ daysLeftOutput.innerHTML = `${daysleft.toFixed(
 	0
 )} days<br> Arequipa anniversary is ${holiday}`;
 
-let sc = Number(window.localStorage.getItem("seconds"));
-let mnt = Number(window.localStorage.getItem("minute"));
-let hr = Number(window.localStorage.getItem("hours"));
-let dy = Number(window.localStorage.getItem("day"));
-let timer = function(){
-	sc++;
-		setTimeout(timer,1000)
-		if (sc === 60){
-			mnt++;
-			sc = 0;
-		}
-		if (mnt === 60){
-			hr++;
-			mnt=0;
-		}
-		if(hr === 24){
-			dy++;
-			hr = 0;
-		}
-		localStorage.setItem("day", dy);
-		localStorage.setItem("hours", hr);
-		localStorage.setItem("minute", mnt);
-		localStorage.setItem("seconds", sc);
-		todayDisplay.innerHTML = dy + ' Days ' + hr + ' Hours ' + mnt + ' Minutes ' + sc + ' Seconds'
-}
-	
-	timer()

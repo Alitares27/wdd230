@@ -36,27 +36,47 @@
             <legend>Join</legend>
            <label class="data">Name: *<input type="text" name="fname" required placeholder="My Name"></label>
            <label class="data">Last Name: *<input type="text" name="lname" required placeholder="My Last Name"></label>
-           <label class="data">Title: <input type="text" name="title" placeholder="My Title"></label>
-           <label class="data">Email: <input type="email" name="email" required placeholder="example@mail.com"></label>
+           <label class="data">Title: <input type="text" name="title" placeholder="My Business Position Title"></label>
+           <label class="data">Email: *<input type="email" name="email" required placeholder="example@mail.com"></label>
            <label class="data">Phone: <input type="tel" name="phone" placeholder="123456789"></label>
         </fieldset>
         <fieldset class="members">
             <legend>Membership</legend>
-            <label>Membership Level *
-                <select class="plans" name="membership" required>
-                    <option value="">Choose an Option</option>
-                    <option value="brass">Brass</option>
-                    <option value="silver">Silver</option>
-                    <option value="gold">Gold</option>
-                </select>
-            </label>
-            <label>Business Name: *<input type="text" name="bname" required></label>
-            <label class="info">Description: <input class="descript" type="text" name="description" required placeholder="a brief Description"></label>
-            <label><input type="datetime-local"></label>
+            <div class="plan">
+                <label><input type="radio" name="plans" value="NP"> NP</label>
+                <label><input type="radio" name="plans" value="bronze"> Bronze</label>
+                <label><input type="radio" name="plans" value="silver"> Silver</label>
+                <label><input type="radio" name="plans" value="gold"> Gold</label>
+            </div>
+            <label>Business Name: *<input class="bdata" type="text" name="bname" required></label>
+            <label class="info">Description: *<input class="descript" type="text" name="description" required placeholder="a brief Description"></label>
         </fieldset>
         <input class="btn" type="submit" value="Join">
-
        </form>
+       <fieldset class="notify">
+        <legend>Our Plans</legend>
+        <div class="p0">
+            <h1>NP Membership</h1>
+            <p class="price">Cost: $0</p>
+            <p>If you are part of a non-profit entity, this free plan may interest you.</p>
+        </div>
+        <div class="p1">
+            <h1>Bronze</h1>
+            <p class="price">Cost: $5</p>
+            <p>If you are new here and want to try our services, we have many things for you, we offer you this plan at a comfortable price</p>
+        </div>
+        <div class="p2">
+            <h1>Silver</h1>
+            <p class="price">Cost: $8</p>
+            <p>With this plan you can access premium features of our services, such as personalization of souvenirs , you will also be the first to try the news that we are launching</p>
+        </div>
+        <div class="p3">
+            <h1>Gold</h1>
+            <p class="price">Cost: $12</p>
+            <p>access all our services, in addition to belonging to the VIP group in which you will not only be the first to enjoy our new releases, but you will also have immediate access to all our events</p>
+        </div>
+        
+    </fieldset>
     </div>
     <footer>
         <section class="top-footer">
@@ -85,11 +105,10 @@
         </div>
     </div>
         <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
-        <p><code>Time:</code> <span id="today"></span></p>
 	<hr>
 	<p><span class="label">Days until Arequipa anniversary:</span> <span id="daysleft"></span></p>
     </footer>
-    <script src="scripts/script.js"></script>
-    <script src="scripts/app.js"></script>
+    <script src="scripts/dapp.js"></script>
+    <script src="scripts/menus.js"></script>
 </body>
 </html>
