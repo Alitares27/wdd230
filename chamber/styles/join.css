@@ -166,13 +166,14 @@ footer{
 }
 fieldset{
     margin: 1% 5%;
-    border: 1px solid #cc9900;
+    border: 1px solid firebrick;
+    border-style: double;
     border-radius: 1%;
     padding: .5rem 2%;
 
 }
 legend{
-    color:#cc9900;
+    color:firebrick;
     margin: 1% 4%;
     padding: 1% .5rem;
     font-weight: 600;
@@ -220,7 +221,10 @@ legend{
     background-color:rgba(0, 128, 0, 0.4);
     border-color:rgba(0, 128, 0, 0.4) ;
 }
-
+.take{
+    text-decoration: none;
+    color: white;
+}
 .btn{
     width: 15%;
     padding: 1%;
