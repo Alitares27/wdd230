@@ -40,6 +40,8 @@ const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const newdate = `${dayName}, ${d.getDay()} ${monthName} ${year}`;
 document.getElementById('date-box').innerHTML = newdate;
+let timer2 = document.getElementById('date-box').value =`${dayName}, ${d.getDay()} ${monthName} ${year}` ;
+
 
 //**timer**/
 // initialize display elements

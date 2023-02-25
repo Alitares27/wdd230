@@ -56,4 +56,8 @@ images.forEach(image=>{
 	observer.observe(image);
 })
 
+let dateTime = document.getElementById('dateTime')
+dateTime = 5*2
+
+console.log(dateTime)
 
