@@ -25,13 +25,13 @@ section h1{
         }
         section{
             margin: 2% 2%;
-            background-color:darkgoldenrod;
+            background-color:gold;
             border-style: double;
             border-color: black;
             border-radius: 20px;
            padding: 1% 1%;
            text-align: center;
-           color: white;
+           color: black;
         }
         img{
             width: 80%;
@@ -50,8 +50,8 @@ section h1{
         grid-template-columns: 1fr 1fr;
     }
     section{
-        background-color:darkgoldenrod;
-        color: white;
+        background-color:gold;
+        color: black;
         border-style: double;
         border-radius: 20px;
        padding: 1% 1%;
@@ -67,7 +67,6 @@ section h1{
 @media only screen and (min-width:64rem){
     .cards{
         border-radius: 10px;
-        
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
