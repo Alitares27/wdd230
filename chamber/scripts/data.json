@@ -1,10 +1,11 @@
-[
+{
+    "companies":[
         {
         "id":1,
         "name":"Spotify",
         "category":"Music & Entertainment",
         "Website":"www.spotify.com/",
-        "Description":"It is one of the largest music streaming service providers, with over 489 million monthly active users, including 205 million paying subscribers, as of December 2022",
+        "Description":"It 2022",
         "image":"https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black-768x230.png"
     },
     {
@@ -12,7 +13,7 @@
         "name":"Google Books",
         "category":"Books & Entertainment",
         "Website":"books.google.com/",
-        "Description":"Google Books is a service from Google Inc. that searches the full text of books and magazines that Google has scanned",
+        "Description":"Google Books",
         "image":"https://www.google.com/intl/en_ALL/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
     },
     {
@@ -20,7 +21,7 @@
         "name":"Netflix",
         "category":"Video & Entertainment",
         "Website":"www.netflix.com/",
-        "Description":"It is an American media company based in Los Gatos, California. Founded in 1997 by Reed Hastings and Marc Randolph in Scotts Valley, California, it operates the over-the-top subscription video on-demand service Netflix brand",
+        "Description":"It is an American ",
         "image":"https://variety.com/wp-content/uploads/2020/05/netflix-logo.png?w=300"
     },
     {
@@ -28,7 +29,8 @@
         "name":"YouTube",
         "category":"Video & Social Media",
         "Website":"www.youtube.com/",
-        "Description":"It is a global online video sharing and social media platform headquartered in San Bruno, California",
+        "Description":"It is a global ",
         "image":"https://i0.wp.com/fontlot.com/wp-content/uploads/2020/03/youtube-logo-font.jpg?fit=650%2C300&ssl=1"
     }
 ]
+}
