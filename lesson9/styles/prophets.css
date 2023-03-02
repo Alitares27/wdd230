@@ -40,6 +40,12 @@ section h1{
         }
 
 }
+footer{
+    background-color: gold;
+    text-align: center;
+    font-size: 150%;
+    padding: 1%;
+}
 
 @media only screen and (min-width:35rem){
     .cards{

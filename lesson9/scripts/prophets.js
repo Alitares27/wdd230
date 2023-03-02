@@ -36,7 +36,7 @@ async function getProphetData() {
       ddeath = new Date(prophet.death)
       let dif = ddeath.getYear() - bdate.getYear()
       h33.textContent ='Age: '+ dif;
-
+      
       //Build the h2 content
   
       // Build the image portrait by setting all the relevant attribute
