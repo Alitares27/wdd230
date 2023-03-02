@@ -145,7 +145,7 @@ div a{
 .mapouter{position:relative;text-align:center;height:100%;width:100%;}
 
 main{
-    background-color:lightgray;
+    background-color:rgba(220, 220, 220, 0.3);
 }
 .cards{
     display: grid;
