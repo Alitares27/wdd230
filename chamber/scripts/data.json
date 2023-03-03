@@ -35,6 +35,51 @@
             "contact":"+1 650-253-0001",
             "Description":"It is a global online video sharing and social media platform headquartered in San Bruno, California",
             "image":"https://i0.wp.com/fontlot.com/wp-content/uploads/2020/03/youtube-logo-font.jpg?fit=650%2C300&ssl=1"
+        },
+        {
+            "id":5,
+            "name":"Nessus Hotels Peru",
+            "category":"Vacation and Travel",
+            "Website":"https://www.casa-andina.com/es/home",
+            "contact":"0 800 71899",
+            "Description":"Peruvian hotel chain founded in February 2003, focused on providing guests with a travel experience.",
+            "image":"https://s3.amazonaws.com/multimediaqa.casa-andina.com/images/main/casa-andina-logo.svg"
+        },
+        {
+            "id":6,
+            "name":"Chicha - Arequipa",
+            "category":"Vacation and Travel",
+            "Website":"https://chicha.com.pe/arequipa/",
+            "contact":"(054) 287360",
+            "Description":"Chicha is regional food: the inputs, customs and culture of each place valued with the best culinary technique and responsible treatment of local products and producers.",
+            "image":"https://chicha.com.pe/wp-content/themes/chicha/images/logo.svg"
+        },
+        {
+            "id":7,
+            "name":"Incalpaca",
+            "category":"Clothes and Gifts",
+            "Website":"https://chicha.com.pe/arequipa/",
+            "contact":"(054) 603000",
+            "Description":"textile company focused on the development of high-quality alpaca products",
+            "image":"https://www.incalpaca.com/assets/img/menu/menu.webp"
+        },
+        {
+            "id":8,
+            "name":"Plaza Vea",
+            "category":"Shopping mall",
+            "Website":"https://www.plazavea.com.pe",
+            "contact":"(01) 625 8000",
+            "Description":"Brand of hypermarkets and supermarkets of the company Supermercados Peruanos S.A. belonging to the Interbank Group",
+            "image":"https://plazavea.vteximg.com.br/arquivos/LogoPlazaVea.svg"
+        },
+        {
+            "id":9,
+            "name":"Plaza Vea",
+            "category":"Gifs",
+            "Website":"https://www.rosatel.pe/",
+            "contact":"(054) 20 2090",
+            "Description":"company selling special gifts by catalog",
+            "image":"https://www.rosatel.pe/arequipa/img/logo.png"
         }
 ]
 }

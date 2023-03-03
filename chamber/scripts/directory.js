@@ -42,3 +42,20 @@ const displayData = (companies) => {
         cards.appendChild(card);
     })
 }
+
+///*** Icomenu***//
+const gridbutton = document.getElementById("grid");
+const listbutton = document.getElementById("list");
+const display = document.querySelector(".cars")
+
+gridbutton.addEventListener("click", () => {
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
