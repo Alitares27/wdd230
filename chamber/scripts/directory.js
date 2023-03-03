@@ -3,7 +3,7 @@ async function getData() {
     const response = await fetch(url);
     const data = await response.json();
     displayData(data.companies);
-    console.table(data.companies);  // note that we reference the prophet array of the data object given the structure of the json file
+    console.table(data.companies); 
   }
   getData();
 
