@@ -42,7 +42,7 @@ async function getProphetData() {
         console.log(prophet.name)
         h33.style.display = 'none';
         h32.style.display = 'none';
-        h34.textContent = 'He is our current prophet';
+        h34.textContent = 'He is the current prophet';
         h34.style.fontSize = '200%'
       }
       
