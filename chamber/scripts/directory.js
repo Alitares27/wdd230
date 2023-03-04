@@ -18,12 +18,14 @@ const displayData = (companies) => {
         let h4 = document.createElement('h4')
         let h41 = document.createElement('h4')
         let h42 = document.createElement('h4')
+        let h43 = document.createElement('h4')
         let p = document.createElement('p')
        
         h1.textContent = `${company.name}`;
         h4.textContent = `Category: ${company.category}`;
         h41.textContent = `Website: ${company.Website}`;
         h42.textContent = `Contact: ${company.contact}`;
+        h43.textContent = `Membership: ${company.membership}`;
         p.textContent = `Description: ${company.Description}`;
         
         portrait.setAttribute('src', company.image);
@@ -37,6 +39,7 @@ const displayData = (companies) => {
         card.appendChild(h4);
         card.appendChild(h41);
         card.appendChild(h42);
+        card.appendChild(h43);
         card.appendChild(p);
 
         cards.appendChild(card);
