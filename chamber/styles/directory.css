@@ -154,7 +154,8 @@ main{
     gap: 5%;
     margin: 1% 2%;
     text-align: center;
-    padding-bottom: 90%;
+    padding-bottom: 320%;
+    
 }
 
 section h1{
@@ -310,7 +311,11 @@ img{
     gap: 5%;
     margin: 1% 2%;
     text-align: center;
-    padding-bottom: 15%;
+    padding-bottom: 110%;
+}
+
+main{
+    width: 100%;
 }
 }
 
@@ -406,12 +411,26 @@ img{
         width: 90%;
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        padding: 5% 7%;
+        padding: 5% 10%;
         gap: 5%;
-        margin: 1% 1%;
+        margin: 0 auto;
         text-align: center;
-        padding-bottom: 17%;
+        padding-bottom: 18%;
     }
 
 }
-
+.imenu{
+margin: 0 auto;
+padding: 2% 2%;
+width: 20rem;
+height: 15rem;
+display: grid;
+}
+#squareView,#listView{
+    font-size: 180%;
+    margin: 10% 10%;
+    border-radius: 20px;
+}
+main{
+    background-color: hsla(30, 6%, 7%, 0.2);
+}

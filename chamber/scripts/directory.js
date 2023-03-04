@@ -42,3 +42,19 @@ const displayData = (companies) => {
         cards.appendChild(card);
     })
 }
+const gridbutton = document.querySelector("#squareView");
+const listbutton = document.querySelector("#listView");
+const display = document.querySelector(".cards");
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("cards");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); 
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("cards");
+}

@@ -7,6 +7,7 @@
             "Website":"www.spotify.com/",
             "contact":"@SpotifyAyuda",
             "Description":"It is one of the largest music streaming service providers, with over 489 million monthly active users, including 205 million paying subscribers, as of December 2022",
+            "membership":"Bronze",
             "image":"https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black-768x230.png"
         },
         {
@@ -16,6 +17,7 @@
             "Website":"books.google.com/",
             "contact":"+1 650-253-0001",
             "Description":"Google Books is a service from Google Inc. that searches the full text of books and magazines that Google has scanned",
+            "membership":"Bronze",
             "image":"https://www.google.com/intl/en_ALL/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
         },
         {
@@ -25,6 +27,7 @@
             "Website":"www.netflix.com/",
             "contact":"0-800-52352",
             "Description":"It is an American media company based in Los Gatos, California. Founded in 1997 by Reed Hastings and Marc Randolph in Scotts Valley, California, it operates the over-the-top subscription video on-demand service Netflix brand",
+            "membership":"Bronze",
             "image":"https://variety.com/wp-content/uploads/2020/05/netflix-logo.png?w=300"
         },
         {
@@ -34,6 +37,7 @@
             "Website":"www.youtube.com/",
             "contact":"+1 650-253-0001",
             "Description":"It is a global online video sharing and social media platform headquartered in San Bruno, California",
+            "membership":"Bronze",
             "image":"https://i0.wp.com/fontlot.com/wp-content/uploads/2020/03/youtube-logo-font.jpg?fit=650%2C300&ssl=1"
         },
         {
@@ -43,6 +47,7 @@
             "Website":"https://www.casa-andina.com/es/home",
             "contact":"0 800 71899",
             "Description":"Peruvian hotel chain founded in February 2003, focused on providing guests with a travel experience.",
+            "membership":"Gold",
             "image":"https://s3.amazonaws.com/multimediaqa.casa-andina.com/images/main/casa-andina-logo.svg"
         },
         {
@@ -52,6 +57,7 @@
             "Website":"https://chicha.com.pe/arequipa/",
             "contact":"(054) 287360",
             "Description":"Chicha is regional food: the inputs, customs and culture of each place valued with the best culinary technique and responsible treatment of local products and producers.",
+            "membership":"Gold",
             "image":"https://chicha.com.pe/wp-content/themes/chicha/images/logo.svg"
         },
         {
@@ -61,6 +67,7 @@
             "Website":"https://www.incalpaca.com/",
             "contact":"(054) 603000",
             "Description":"textile company focused on the development of high-quality alpaca products",
+            "membership":"Gold",
             "image":"https://www.incalpaca.com/assets/img/menu/menu.webp"
         },
         {
@@ -70,6 +77,7 @@
             "Website":"https://www.plazavea.com.pe",
             "contact":"(01) 625 8000",
             "Description":"Brand of hypermarkets and supermarkets of the company Supermercados Peruanos S.A. belonging to the Interbank Group",
+            "membership":"Silver",
             "image":"https://plazavea.vteximg.com.br/arquivos/LogoPlazaVea.svg"
         },
         {
@@ -79,6 +87,7 @@
             "Website":"https://www.rosatel.pe/",
             "contact":"(054) 20 2090",
             "Description":"company selling special gifts by catalog",
+            "membership":"Silver",
             "image":"https://www.rosatel.pe/arequipa/img/logo.png"
         }
 ]
