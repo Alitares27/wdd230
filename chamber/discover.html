@@ -14,7 +14,7 @@
 <body>
     <header>
         <div class="logo-box">
-            <img class="worldlogo" src="images/LamBus_logo.png" alt="lambus">
+            <img class="worldlogo" src="images/LamBus_logo.webp" alt="lambus">
             <h1 class="firstTitle">LamBus</h1>
             <h1 class="secondTitle">Chamber of Commerce</h1>
         </div>
@@ -39,12 +39,12 @@
     <div class="container">
         <h1 class="arequipa">Arequipa</h1>
         <picture class="bk1">
-            <img loading="lazy" class="misti" src="https://c1.wallpaperflare.com/preview/449/729/288/arequipa-peru-travel-peruvian.jpg" alt="misti">
+            <img  class="misti" src="images/pholder.jpg" data-src="images/arequipa-peru-travel-peruvian.webp" alt="misti">
         </picture>
         <p class="intro">Arequipa is a Peruvian city, it is the second most populous city in the country. It is considered the "Legal Capital of Peru".
             Arequipa is also known as The White City or lion of the south</p>
         <picture class="bk2">
-            <img loading="lazy" class="cathedral" src="https://c0.wallpaperflare.com/preview/134/582/370/santa-catalina-monastery-arequipa-peru.jpg"  alt="Catalina">
+            <img  class="cathedral" src="images/pholder.jpg" data-src="images/santa-catalina-monastery-arequipa-peru.webp"  alt="Catalina">
         </picture>
         <div class="box2">
             <h1>Location</h1>
@@ -57,18 +57,18 @@
             <p>Total 1,142,900 inhab.</p>
         </div>
         <picture class="bk3">
-            <img loading="lazy" class="square" src="https://c1.wallpaperflare.com/preview/120/265/75/main-square-arcade-arequipa-peru-night.jpg"  alt="square">
+            <img  class="square" src="images/pholder.jpg" data-src="images/main-square-arcade-arequipa-peru-night.webp"  alt="square">
         </picture>    
             <p class="box3">The climate is temperate arid, with an average temperature of about 14.5 °C, rainfall of 75 to 100 mm per year and classified as a BWk climate.118 The city's climate is predominantly dry in winter, autumn and spring due to low humidity atmospheric, 
                 it is also arid due to the scarce effective precipitation and tempered by the thermal condition</p>
         <picture class="bk4">
-            <img loading="lazy" class="aceros" src="https://www.rumbominero.com/wp-content/uploads/2022/02/aceros-arequipa.jpg"  alt="iron">
+            <img  class="aceros" src="images/pholder.jpg" data-src="images/aceros-arequipa.webp"  alt="iron">
         </picture>
             <p class="box4">The industrial sector of the city presents the greatest diversification at the national level and is the second most industrialized city in Peru as a result of the creation of the Industrial Park during the first government of the architect Fernando Belaúnde Terry. 
                 After two great earthquakes, in 1958 and 1960, with the law of the "Rehabilitation and Development Board of Arequipa" the Industrial Park was built with two or three factories at that time.</p>
         
         <picture class="bk5" >
-            <img loading="lazy" class="yanahuara" src="https://www.peru.travel/Contenido/Atractivo/Imagen/fr/530/1.1/Principal/mirador-yanahuara.jpg"  alt="yanahuara">
+            <img  class="yanahuara" src="images/pholder.jpg" data-src="images/mirador-yanahuara.webp"  alt="yanahuara">
         </picture>
             <p class="box5">Tourism is a dynamic factor in the economy, consolidating itself as the third most visited city in the country, after Cusco and Lima. In 2010, a total of 1,395,000 visitors arrived in the city.</p>
         
@@ -88,7 +88,7 @@
                 <p> info@lambus.com</p>
                 <p> +54 997 654 086 </p>
                 <p> &#x1F4CD;<a href="https://goo.gl/maps/zJiyebokFZAuNxPK9">Take a Look</a></p>
-                <div class="mapouter"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=plaza de armas arequipa&t=k&z=16&ie=UTF8&iwloc=&output=embed" ></iframe></div></div>
+                <div class="mapouter"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=plaza+de+armas+arequipa&t=k&z=16&ie=UTF8&iwloc=&output=embed" ></iframe></div></div>
             </div>
         </section> 
         <div class="bottom-footer">
@@ -101,6 +101,7 @@
         </div>
     </div>
         <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
+        <p><span class="counting"></span><span id="visit2"> days have passed since your last visit</span></p>
 	<hr>
 	<p><span class="label">Days until Arequipa anniversary:</span> <span id="daysleft"></span></p>
     <p class="modify">Last Modification: <span id="modifiedDate"></span></p>    
@@ -108,5 +109,6 @@
     <script src="scripts/dates.js"></script>
     <script src="scripts/messages.js"></script>
     <script src="scripts/menus.js"></script>
+    <script src="scripts/lazy.js"></script>
 </body>
 </html>

@@ -76,3 +76,16 @@ daysLeftOutput.innerHTML = `${daysleft.toFixed(
 	0
 )} days<br> Arequipa anniversary is ${holiday}`;
 
+const now = new Date();
+const clock = new Date (localStorage.getItem('clock'));
+const counting = document.querySelector('.counting')
+
+if(clock != 0){
+	var difday = Math.abs(now - clock);
+	var difTime = Math.round(difday/(1000 * 3600 * 24));
+	counting.textContent = difTime;
+}
+
+localStorage.setItem("clock", now);
+
+

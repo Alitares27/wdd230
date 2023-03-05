@@ -33,31 +33,3 @@ daysLeftOutput.innerHTML = `${daysleft.toFixed(
 	0
 )} days<br> Arequipa anniversary is ${holiday}`;
 
-//Lazy Images
-const images = document.querySelectorAll('img');
-function intersection(entries,observer){
-	entries.forEach(entry => {
-		if(entry.isIntersecting){
-			entry.target.src = entry.target.src;
-		}else{
-			return;
-		}
-		observer.unobserve(entry.target)
-	});	
-}
-const options = {
-	root: null,
-	rootMargin: '0px',
-	threshold:0.7
-}
-
-const observer = new IntersectionObserver(intersection,options);
-images.forEach(image=>{
-	observer.observe(image);
-})
-
-let dateTime = document.getElementById('dateTime')
-dateTime = 5*2
-
-console.log(dateTime)
-
