@@ -10,7 +10,6 @@ const loading = (image) => {
 let options = {
     threshold: 1,
   }
-  
 
 if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver((items, observer) => {
