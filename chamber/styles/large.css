@@ -104,14 +104,17 @@
     grid-column-start: 1;
     width: 100%;
 }
-.joinus{
-    
-}
 .weather-box{
     grid-row-start: 2;
     grid-column-start: 1;
     width: 100%;
     margin-left: 0%;
+}
+.details{
+    margin-top: -10%;
+}
+.desc{
+    font-size: 120%;
 }
 .join-box{
     grid-row-start: 3;
