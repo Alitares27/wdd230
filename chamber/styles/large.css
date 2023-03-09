@@ -127,7 +127,7 @@
 }
 .join-box p{
     padding-top: 42%;
-    font-size: 1.3em;
+    font-size: 100%;
 }
 .intro-box{
     grid-row-start: 1;
