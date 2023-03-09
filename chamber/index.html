@@ -58,11 +58,11 @@
                 <div class="weather-box">
                     <h2 class="Weather">Weather</h2>
                     <div class="scale">
-                        <img class="weather-img" src="images/weather.png" alt="weather">
+                        <img class="weather-img">
                         <h1 class="grades"><span class="grade">  </span>°C</h1>
                     </div>
                     <div class="details">
-                        <h1>Partly Cloudy</h1>
+                        <h1 class="desc">Partly Cloudy</h1>
                         <hr>
                         <div class="wind">
                         <p>Wind Speed:</p>
@@ -132,8 +132,11 @@
             <p class="name">Aldair Payehuanca |</p>
             <p class="project">WDD 230 Project |</p>
         </div>
-        <p class="modify">Last Modification: <span id="modifiedDate"></span></p>
-        </div>
+        <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
+        <p><span class="counting"></span><span id="visit2"> days have passed since your last visit</span></p>
+	<hr>
+	<p><span class="label">Days until Arequipa anniversary:</span> <span id="daysleft"></span></p>
+    <p class="modify">Last Modification: <span id="modifiedDate"></span></p>    
     </footer>
     <script src="scripts/dates.js"></script>
     <script src="scripts/messages.js"></script>
