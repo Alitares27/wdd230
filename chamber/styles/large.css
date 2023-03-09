@@ -129,9 +129,9 @@
     padding: 0;
 }
 .join-box p{
-    padding-top: 10%;
-    font-size: 90%;
-    width: 95%;
+    padding-top: 50%;
+    font-size: 120%;
+    width: 90%;
 }
 .intro-box{
     grid-row-start: 1;
