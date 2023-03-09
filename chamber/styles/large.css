@@ -125,9 +125,13 @@
     top: 12%;
     padding: 15px;
 }
+.joinus{
+    padding: 0;
+}
 .join-box p{
-    padding-top: 42%;
-    font-size: 100%;
+    padding-top: 10%;
+    font-size: 90%;
+    width: 95%;
 }
 .intro-box{
     grid-row-start: 1;
