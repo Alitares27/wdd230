@@ -10,4 +10,3 @@ if(day> 1 && day<3){
 sms.innerHTML = msday;
 
 
-

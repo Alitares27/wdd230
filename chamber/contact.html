@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Aldair Payehuanca Chamber of Commerce - WDD 230 class - Brigham Young University - Idaho.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Source+Sans+Pro:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+
+<header>
+    <div class="logo-box">
+        <img class="worldlogo" src="images/LamBus_logo.png" alt="lambus">
+        <h1 class="firstTitle">LamBus</h1>
+        <h1 class="secondTitle">Chamber of Commerce</h1>
+    </div>
+    <div class="icon-box">
+        <img class="fb" src="images/fb.png" alt="fbLogo">
+        <img class="lin" src="images/lin.png" alt="linkedinLogo">
+    </div>
+    <nav class="menu">
+    <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+    <ul id="primaryNav">
+        <li><a href="/wdd230/chamber/index.html">Home</a></li>
+        <li><a href="/wdd230/chamber/discover.html">Discover</a></li>
+        <li><a href="/wdd230/chamber/directory.html">Directory</a></li>
+        <li><a href="/wdd230/chamber/join.html">Join</a></li>
+        <li><a href="/wdd230/chamber/contact.html">Contact</a></li>
+    </ul>
+</nav>
+<h1 class="time" id="date-box"></h1>
+
+</header>
+<h2 class="message" id="sms">null</h2>
+<div class="Dcontact">
+    <form method="get" action="index.html" >
+    <fieldset class="contactFs">
+        <legend>Contact Us</legend>
+       <label class="data">Name: *<input type="text" name="fname" required placeholder="My Name"></label>
+       <label class="data">Last Name: *<input type="text" name="lname" required placeholder="My Last Name"></label>
+       <label class="data">Email: *<input type="email" name="email" required placeholder="example@mail.com"></label>
+       <label class="data">Phone: <input type="tel" name="phone" required placeholder="123456789"></label>
+       <input class="conBtn" type="submit" value="Contact Us" >
+       <img class="vicunas" src="https://cdn.pixabay.com/photo/2021/07/31/21/39/vicunas-6513130_1280.jpg" alt="vicunas-aqp">
+    </fieldset>
+</form>
+    <aside class="visual">
+        <iframe class="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.511897998517!2d-71.53909428513712!3d-16.39880838867808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a59ffae2999%3A0xc419f49d1f9cd270!2sPlaza%20de%20Armas%20Arequipa!5e0!3m2!1sen!2spe!4v1677364627888!5m2!1sen!2spe"></iframe>
+        <h1>Contact Us</h1>
+        <h2>Address</h2>
+        <p>100 Cusco Street</p>
+        <p>Arequipa 04001</p>
+        <br>
+        <h2>Phone</h2>
+        <p>+54 997 654 086 </p>
+        <br>
+        <h2>Email</h2>
+        <p>info@lambus.com</p>
+    </aside>
+
+</div>
+
+<footer>
+    <section class="top-footer">
+        <div class="detail0">
+            <img src="images/LamBus_logo.png" alt="worldLogo">
+        </div>
+        <div class="detail1">
+            <h2>LamBus Chamber of Commerce</h2>
+            <p>100 Cusco Street</p>
+            <p>LamBus, Arequipa 04001</p>
+        </div>
+        <div class="detail2">
+            <p> info@lambus.com</p>
+            <p> +54 997 654 086 </p>
+            <p> &#x1F4CD; <a class="linking" href="https://goo.gl/maps/HeAA7i5NBkHJ2Wj97">Location Map</a> </p>
+            <p>&#x1F321;<a class="Oweather" href="https://openweathermap.org/">Visit Open Weather</a> </p>
+        </div>
+    </section> 
+    <div class="bottom-footer">
+        <hr>
+        <div class="author">
+        <p class="copyright">&copy; <span id="year"></span>
+        <p class="business">LamBus Chamber |</p>
+        <p class="name">Aldair Payehuanca |</p>
+        <p class="project">WDD 230 Project |</p>
+    </div>
+    <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
+    <p><span class="counting"></span><span id="visit2"> days have passed since your last visit</span></p>
+<hr>
+<p><span class="label">Days until Arequipa anniversary:</span> <span id="daysleft"></span></p>
+<p class="modify">Last Modification: <span id="modifiedDate"></span></p>    
+</footer>
+<script src="scripts/dates.js"></script>
+    <script src="scripts/messages.js"></script>
+    <script src="scripts/menus.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
