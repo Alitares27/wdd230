@@ -276,7 +276,6 @@ footer{
 .spot1-box,.spot2-box,.spot3-box{
     padding: 10px 2px;
     justify-content: center;
-    box-shadow: 1px 1px 2px 2px #cc9900;
     padding: 1rem 1rem;
     background-color: firebrick;
     text-align: center;
@@ -302,6 +301,8 @@ footer{
 }
 .truck,.pencils,.tree{
     width: 8rem;
+    background-color: white;
+    padding: 1em 1em;
 }
 .spotlight p{
     color: white;
