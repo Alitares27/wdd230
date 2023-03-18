@@ -22,19 +22,19 @@ header{
 }
 .firstTitle{
     font-family: 'Cinzel Decorative', cursive;
-    font-size: 150%;
+    font-size: 1.5em;
     font-weight: bold;
     position: absolute;
     left: 10%;
-    top: 1%;
+    top: 0.2%;
 }
 .secondTitle{
     font-family: 'Cinzel Decorative', cursive;
-    font-size: 85%;
+    font-size: 1em;
     font-weight: bold;
     position: absolute;
     left: 13%;
-    top: 5%;
+    top: 4%;
 }
 .icon-box{
     padding-top: 30%;

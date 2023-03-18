@@ -17,20 +17,20 @@
     .firstTitle{
         grid-column-start: 1;
         font-family: 'Cinzel Decorative', cursive;
-        font-size: 200%;
+        font-size: 1.5em;
         font-weight: bold;
         position: absolute;
         left: 12%;
-        top: 1%;
+        top: 0.2%;
     }
     .secondTitle{
         grid-column-start: 1;
         font-family: 'Cinzel Decorative', cursive;
-        font-size: 120%;
+        font-size: 1;
         font-weight: bold;
         position: absolute;
-        left: 13%;
-        top: 6%;
+        left:13%;
+        top: 4%;
     }
    nav{
     margin-left: 0;
