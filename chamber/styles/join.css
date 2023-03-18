@@ -233,7 +233,7 @@ legend{
     border-radius: 1rem;
     color: white;
     font-weight: 700;
-    margin: 1% 35%;
+    margin: 1% 18%;
     width: 90%;
     max-width: 20rem;
 }
@@ -376,6 +376,9 @@ legend{
     display: block;
     grid-column-start: 1;
 }
+.btn{
+    margin-left: 35%;
+}
     
 }
 
@@ -476,6 +479,8 @@ legend{
     .forms{
         grid-template-columns: 50% 50%;
         display: grid;
-    
+    }
+    .btn{
+        margin-left:25% ;
     }
 }
