@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/coconut.png">
+</head>
+<body>
+    <header>
+        <div class="containerHd">
+            <div class="titles">
+                <img src="images/coconut.webp" alt="logo">
+                <h1>Bountiful Foods</h1>
+            </div>  
+         <nav class="menu">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li><a href="/lesson12/index.html">Home</a></li>
+                <li><a href="/lesson12/fresh.html">Fresh</a></li>
+                <li><a href="/lesson12/aboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+           <div class="social">
+             <a href="https://www.instagram.com/"><img src="images/instagram.webp" alt="instagram"></a>
+             <a href="https://www.facebook.com/"><img src="images/Facebook.webp" alt="Facebook"></a>
+             <a href="https://twitter.com/"><img src="images/twitter.webp" alt="twitter"></a>
+           </div>
+        </div>
+     </header>
+
+     <div class="forms">
+        <form >
+         <fieldset class="join">
+             <legend>Creator</legend>
+            <label class="data">Name: *<input id="names" class="names" type="text" name="fname" required placeholder="My Name"></label>
+            <label class="data">Email: *<input id="emails" class="emails" type="email" name="email" required placeholder="example@mail.com"></label>
+            <label class="data">Phone: <input id="phones" class="phones" type="tel" name="phone" required placeholder="123456789"></label>
+         </fieldset>
+         <fieldset class="Products">
+             <legend>My Recipe</legend>
+                    <select id="ft1">Fruit 1</select>
+                    <select id="ft2">Fruit 2</select>
+                    <select id="ft3">Fruit 3</select>
+             <label class="info">Instructions: *<input class="descript" type="text" name="description" placeholder="Recipe Instructions "></label>
+             <input id="date-box" type="hidden" value="date">
+             <button class="btn" type="button" onclick="Mrecipe()">Create</button>
+            
+         </fieldset>
+        </form>
+        <div id="Mdata" class="Mdata">
+            <p id="mname">Name</p>
+            <p id="memail">Email</p>
+            <p id="mphone">Phone</p>
+            <p id="f1">fuit 1</p>
+            <p id="f2">Fruit 2</p>
+            <p id="f3">Fruit 3</p>
+            <p id="mdate">date</p>
+            <p id="tcarbohydrates">carbohydrates</p>
+            <p id="tprotein">protein</p>
+            <p id="tfat">fat</p>
+            <p id="tsugar">sugar</p>
+            <p id="calories ">calories </p>
+
+        </div>
+
+    </div>
+     <footer>
+        <div class="author">
+            <p class="copyright">&copy; <span id="year"></span> .:|:. Pure fruit.:|:. </p>
+        </div>
+        <div class="additional">
+            <p><span class="label">Number of Recipes sent: </span><span id="visits"></span></p>
+            <p class="modify">Last Modification: <span id="modifiedDate"></span></p>    
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
