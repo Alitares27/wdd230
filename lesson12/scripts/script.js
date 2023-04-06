@@ -184,12 +184,11 @@ async function apiFetch() {
         let opt3 = document.createElement("option");
         
         opt.textContent = `${fruit.name}`;
-        //opt.value = `${fruit.id}`
+       
         opt2.innerHTML = `${fruit.name}`;
-       // opt2.value = `${fruit.id}`
+      
         opt3.innerHTML = `${fruit.name}`;
-       // opt3.value = `${fruit.id}`
-        
+       
         ft1.appendChild(opt);
         ft2.appendChild(opt2);
         ft3.appendChild(opt3);
@@ -206,30 +205,30 @@ function Mrecipe(){
   const emails = document.getElementById('emails').value;
   const phones = document.getElementById('phones').value;
   const ft11 = document.getElementById('ft1').options[ft1.selectedIndex].text;
-  ptp = document.getElementById('ft1').options[ft1.selectedIndex].value
-  console.log(ptp)
+ const ft111 = ft11.options[ft1.selectedIndex]
+  let crb1 = (`${fruit[ft111].nutritions.carbohydrates}`)
+
+  console.log(crb1)
   const ft21 = document.getElementById('ft2').options[ft2.selectedIndex].text;
   const ft31 = document.getElementById('ft3').options[ft3.selectedIndex].text;
+  const descript =document.querySelector('.descript').value;
+ let mdate = `${monthName} /${dayName}/${year}`;
 
-  const mname = document.getElementById('mname')
-  mname.innerHTML = names;
-  const memail = document.getElementById('memail')
-  memail.innerHTML = emails;
-  const mphone = document.getElementById('mphone')
-  mphone.innerHTML = phones;
-  const f1 = document.getElementById('f1')
-  f1.innerHTML = ft11
-  const f2 = document.getElementById('f2')
-  f2.innerHTML = ft21
-  const f3 = document.getElementById('f3')
-  f3.innerHTML = ft31
-  const mdate = document.getElementById('mdate');
-  mdate.innerHTML = `${monthName} / ${dayName}/ ${year}`;
+  alert(`Hi ${names}\n${emails}\n${phones}\n Your fruits are:\nFruit 1: ${ft11}\n Fruit 2: ${ft21} \n Fruit 3: ${ft31}\n Instructions: ${descript}\n${mdate}`)
 
- 
+ let drinkls = document.getElementById('drinkls')
+  let Drink = Number(window.localStorage.getItem('Drinks'));
+  Drink++
+  localStorage.setItem("Drinks", Drink);
+  if (Drink !== 0) {
+    drinkls.textContent = 'This is a great Recipe';
+  } else {
+    drinkls.textContent = `This is your first Recipe`;
+  }
+  
   }
   Mrecipe()
 
   
 
-  
+ 
