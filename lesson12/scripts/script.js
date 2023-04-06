@@ -151,56 +151,65 @@ async function apiFetch() {
 
   /**Fruits API**/
   
-  const resp = await fetch('https://alitares27.github.io/wdd230/chamber/scripts/fruitlist.json');
-
-  async function apiFetchFruit() {
-    const jsn = await resp.json();
-    console.log(jsn);
-    const fdata = [];
-    var fruitslist = json.fruits
-    
-        let ft1 = document.getElementById('ft1');
-        let ft2 = document.getElementById('ft2');
-        let ft3 = document.getElementById('ft3');
-
-        fruitsList.forEach((item) => {
-          console.log(fruitsList)
-         
-          
-          let opt = document.createElement("option");
-          let opt2 = document.createElement("option");
-          let opt3 = document.createElement("option");
-          opt.innerHTML = item[i];
-          opt2.innerHTML = item[i];
-          opt3.innerHTML = item[i];
-
-          ft1.appendChild(opt);
-          ft2.appendChild(opt2);
-          ft3.appendChild(opt3);
-
-          displayFruit(dataFr)
-          Mrecipe(dataFr)
-
-        });
-
-      } else {
-          throw Error(await responseFr.text());
-      }
-    } catch (error) {
-        
-    }
-    
+  const url2 = ('https://alitares27.github.io/wdd230/lesson12/scripts/fruitlist.json');
+  
+  async function getFruitData() {
+    const response2 = await fetch(url2);
+    const data2 = await response2.json();
+    displayFruits(data2.fruits)// note that we reference the prophet array of the data object given the structure of the json file
   }
-  apiFetchFruit();
+  
+  getFruitData();
+  
+  const displayFruits = (fruits) => {
+    const list = document.querySelector('.fruitdb')
+    let ft1 = document.createElement('select');
+    ft1.setAttribute('id','ft1')
+    let ft2 = document.createElement('select');
+    ft2.setAttribute('id','ft2')
+    let ft3 = document.createElement('select');
+    ft3.setAttribute('id','ft3')
+    
+    
+    fruits.forEach((fruit) => {
+        let opt = document.createElement("option");
+        let crb = parseFloat(`${fruit.nutritions.carbohydrates}`)
+        let prt = parseFloat(`${fruit.nutritions.protein}`)
+        let fat = parseFloat(`${fruit.nutritions.fat}`)
+        let cal = parseFloat(`${fruit.nutritions.calories}`)
+        let sug = parseFloat(`${fruit.nutritions.sugar}`)
 
-//**Display Recipe**//
+        console.log(crb,prt,fat,cal,sug)
+        let opt2 = document.createElement("option");
+        let opt3 = document.createElement("option");
+        
+        opt.textContent = `${fruit.name}`;
+        //opt.value = `${fruit.id}`
+        opt2.innerHTML = `${fruit.name}`;
+       // opt2.value = `${fruit.id}`
+        opt3.innerHTML = `${fruit.name}`;
+       // opt3.value = `${fruit.id}`
+        
+        ft1.appendChild(opt);
+        ft2.appendChild(opt2);
+        ft3.appendChild(opt3);
+        list.appendChild(ft1);
+        list.appendChild(ft2);
+        list.appendChild(ft3);
+
+
+    
+  })}
+    //**Display Recipe**//
 function Mrecipe(){
   const names = document.getElementById('names').value;
   const emails = document.getElementById('emails').value;
   const phones = document.getElementById('phones').value;
-  const ft11 = document.getElementById('ft1').value;
-  const ft21 = document.getElementById('ft2').value;
-  const ft31 = document.getElementById('ft3').value;
+  const ft11 = document.getElementById('ft1').options[ft1.selectedIndex].text;
+  ptp = document.getElementById('ft1').options[ft1.selectedIndex].value
+  console.log(ptp)
+  const ft21 = document.getElementById('ft2').options[ft2.selectedIndex].text;
+  const ft31 = document.getElementById('ft3').options[ft3.selectedIndex].text;
 
   const mname = document.getElementById('mname')
   mname.innerHTML = names;
@@ -217,7 +226,10 @@ function Mrecipe(){
   const mdate = document.getElementById('mdate');
   mdate.innerHTML = `${monthName} / ${dayName}/ ${year}`;
 
+ 
   }
-
   Mrecipe()
 
+  
+
+  
