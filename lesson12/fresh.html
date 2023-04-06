@@ -38,38 +38,25 @@
      </header>
 
      <div class="forms">
-        <form >
+        <form method="get"
          <fieldset class="join">
              <legend>Creator</legend>
             <label class="data">Name: *<input id="names" class="names" type="text" name="fname" required placeholder="My Name"></label>
             <label class="data">Email: *<input id="emails" class="emails" type="email" name="email" required placeholder="example@mail.com"></label>
-            <label class="data">Phone: <input id="phones" class="phones" type="tel" name="phone" required placeholder="123456789"></label>
+            <label class="data">Phone: *<input id="phones" class="phones" type="tel" name="phone" required placeholder="123456789"></label>
          </fieldset>
          <fieldset class="Products">
              <legend>My Recipe</legend>
              <div class="fruitdb"></div>
                     
-             <label class="info">Instructions: *<input class="descript" type="text" name="description" placeholder="Recipe Instructions "></label>
+             <label class="info">Instructions: *<input class="descript" type="text" name="description" required placeholder="Recipe Instructions "></label>
              <input id="date-box" type="hidden" value="date">
-             <button class="btn" type="button" onclick="Mrecipe()">Create</button>
+             
             
          </fieldset>
+         <input class="btn" type="submit" value="Create" onclick="Mrecipe()">
         </form>
-        <div id="Mdata" class="Mdata">
-            <p id="mname">Name</p>
-            <p id="memail">Email</p>
-            <p id="mphone">Phone</p>
-            <p id="f1">Fruit 1</p>
-            <p id="f2">Fruit 2</p>
-            <p id="f3">Fruit 3</p>
-            <p id="mdate">date</p>
-            <p id="tcarbohydrates">carbohydrates</p>
-            <p id="tprotein">protein</p>
-            <p id="tfat">fat</p>
-            <p id="tsugar">sugar</p>
-            <p id="calories ">calories </p>
-
-        </div>
+        
 
     </div>
      <footer>
@@ -77,7 +64,7 @@
             <p class="copyright">&copy; <span id="year"></span> .:|:. Pure fruit.:|:. </p>
         </div>
         <div class="additional">
-            <p><span class="label">Number of Recipes sent: </span><span id="visits"></span></p>
+            <p><span class="label">Number of Recipes sent: </span><span id="drinkls"></span></p>
             <p class="modify">Last Modification: <span id="modifiedDate"></span></p>    
         </div>
     </footer>
